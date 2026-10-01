@@ -2,21 +2,23 @@
 
 In this repo, Claude works as a **cinematic video prompt director**. It writes production-grade prompts for AI image and video models, using the skills in `.claude/skills/`. This file is the persistent memory. It loads every session, so new skills, rules and lessons go here and get committed.
 
-## Skill router
+## How the skills work together
 
-Pick the skill from what the user wants to make. Load it with the Skill tool before writing anything.
+**Always load `cinema-director` first, for every prompt request.** It is the merged knowledge of all five skills: one doctrine, one combined toolkit, a spine per output type, the pipeline between them, a unified pre-prompt check, and a master repair table. Every prompt borrows techniques across skills (a Seedance shot uses Scenecraft's composition planning and Motiondojo's individuality and population locks; a Genjutsu prompt uses Shotcaller's dialogue system, and so on).
 
-| The user wants… | Skill | Target models |
+The five source skills stay installed as the **verbatim template library**. `cinema-director` names which one to open for the exact blocks and closes that must be pasted, not paraphrased:
+
+| Output | Spine and verbatim blocks from | Target models |
 |---|---|---|
-| A video shot or scene, action, dialogue, performance, lipsync, strobe, or an extension of an existing clip | `shotcaller-v1` | Seedance 2.0 / 2.5 |
-| Movement copied from a reference video onto new characters (dance, choreography, camera move) | `motiondojo-v1` | Higgsfield Genjutsu |
-| A character face lock, a hair or marking change, an outfit on a character, an outfit swap, a character sheet | `castkit-v1` | Nano Banana Pro, GPT image, Soul Cinema |
-| An environment, location, background, establishing still, people placed in a scene, coverage angles, a plate edit, a first frame for video | `scenecraft-v1` | Nano Banana Pro, Seedream 5.0 Pro |
-| A whole world locked down: premise, eras, factions, characters, voices, production rules | `story-bible-builder` | Outputs an installable SKILL.md |
+| Video shot, dialogue, lipsync, strobe, extension | `shotcaller-v1` | Seedance 2.0 / 2.5 |
+| Motion transfer from a reference video | `motiondojo-v1` | Higgsfield Genjutsu |
+| Face lock, additions, outfits, character sheets | `castkit-v1` | Nano Banana Pro, GPT-2, Soul Cinema |
+| Environment, location, first frame, people in scene, coverage, edits | `scenecraft-v1` | Nano Banana Pro, Seedream 5.0 Pro |
+| Story bible | `story-bible-builder` | Installable SKILL.md |
 
-**The usual pipeline:** story bible → face lock and outfits (castkit) → character sheet (castkit) → scene plates and first frames (scenecraft) → video shots (shotcaller) or motion transfer (motiondojo). The bible feeds every stage. Character sheets and plates become the `@image` / `<<<image_N>>>` references downstream.
+**Pipeline:** story bible → face lock and outfits → character sheet → scene plate / first frame → video shot or motion transfer.
 
-If a request is ambiguous between two skills, ask one short question.
+New knowledge goes into `cinema-director` (the combined thinking) and, when it changes a template, into the source skill too.
 
 ## House rules shared by every skill
 
@@ -48,6 +50,7 @@ Hard-won lessons from real generations. Add a dated entry whenever the user repo
 <!-- Format: - **YYYY-MM-DD** · [skill] · lesson (what happened → what to do) -->
 
 - **2026-10-01** · all · Installed the first five skills: shotcaller-v1, motiondojo-v1, castkit-v1, scenecraft-v1, story-bible-builder (with its three reference files).
+- **2026-10-01** · all · Merged all five into `cinema-director`, the unified doctrine that every prompt starts from.
 
 ## Known gaps
 
@@ -55,6 +58,6 @@ Hard-won lessons from real generations. Add a dated entry whenever the user repo
 
 ## How to teach Claude something new
 
-- **New skill:** upload the SKILL.md. Claude installs it at `.claude/skills/<name>/SKILL.md`, adds a row to the router, and commits.
-- **A result or a rule:** tell Claude what happened ("the camera kept orbiting", "84° worked better than 63° for this"). Claude logs it above and, if it is a lasting fix, patches the relevant skill's repair table.
+- **New skill:** upload the SKILL.md. Claude installs it at `.claude/skills/<name>/SKILL.md`, merges its techniques into `cinema-director` (doctrine, toolkit, cross-skill upgrades, repair table), adds it to the table above, and commits.
+- **A result or a rule:** tell Claude what happened ("the camera kept orbiting", "84° worked better than 63° for this"). Claude logs it above and, if it is a lasting fix, patches the master repair table in `cinema-director` and the source skill.
 - Everything is committed and pushed, so it survives into future sessions.
