@@ -1,0 +1,12 @@
+{
+  "telegram_bot_token": "PASTE_FROM_BOTFATHER",
+  "telegram_chat_id": "PASTE_YOUR_CHAT_ID",
+  "brand": {
+    "handle": "@YourHandle",
+    "bg": "#0E0E12",
+    "fg": "#F4F4F6",
+    "accent": "#7C6CFF",
+    "muted": "#8A8A96",
+    "size": [1600, 900]
+  }
+}

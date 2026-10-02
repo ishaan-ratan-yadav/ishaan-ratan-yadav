@@ -1,0 +1,5 @@
+config.json
+media/library/*
+!media/library/.gitkeep
+__pycache__/
+.DS_Store

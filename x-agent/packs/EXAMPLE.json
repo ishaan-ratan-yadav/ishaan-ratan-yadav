@@ -1,0 +1,83 @@
+{
+  "date": "EXAMPLE",
+  "brief": {
+    "summary": "Example pack showing the format. Real packs are written by the morning task.",
+    "trends": [
+      {
+        "name": "New phone launch",
+        "why": "Top 3 trend in US + India",
+        "angle": "Spec 3D ad: the phone unfolds into a city skyline"
+      },
+      {
+        "name": "AI video model drop",
+        "why": "Creative X is arguing about it",
+        "angle": "Side by side: AI clip vs our 3D shot, where each wins"
+      }
+    ],
+    "golden_hour": "Be on X for 30 min after each post and reply to every comment in the first hour."
+  },
+  "posts": [
+    {
+      "id": "P1",
+      "slot": "09:30 IST",
+      "pillar": "Behind the render",
+      "format": "video + text",
+      "hook_type": "time-bound result",
+      "score": 8.1,
+      "hypothesis": "Process breakdowns with a time stamp beat polished finals",
+      "text": "This 6-second bottle shot took 41 hours.\n\nHere's where every hour went:",
+      "thread": [
+        "Hours 1-6: reference. 200+ frames of real liquid, slowed to 1/8 speed.",
+        "Hours 7-22: the sim. 14 versions. v9 looked right but read as fake at full speed.",
+        "Hours 23-41: light + comp. The light is what made it look expensive.\n\nWhat part would you have cut?"
+      ],
+      "media": "Attach: renders/bottle_breakdown.mp4 (wireframe -> final, 12s)",
+      "alt_hooks": [
+        "Clients see 6 seconds. We see 41 hours.",
+        "Why a 6-second 3D ad costs what it costs:"
+      ]
+    },
+    {
+      "id": "P2",
+      "slot": "18:30 IST",
+      "pillar": "Creative business",
+      "format": "text",
+      "hook_type": "contrarian",
+      "score": 7.6,
+      "hypothesis": "Pricing takes drive replies from freelancers",
+      "text": "Stop charging per second of animation.\n\nCharge for the result the ad has to get.\n\nSame render. 4x the fee. Here's the script I use on calls ↓",
+      "self_reply_link": "Full breakdown of our pricing call: https://www.evolvesstudios.com"
+    }
+  ],
+  "quotes": [
+    {
+      "author": "@example",
+      "target_url": "https://x.com/example/status/1234567890123456789",
+      "why": "Viral FOOH ad, 2M views, our exact skill set",
+      "text": "Breaking down how this was made in Blender, shot by shot. 🧵"
+    }
+  ],
+  "replies": [
+    {
+      "author": "@example",
+      "posted_ago": "12 min ago",
+      "target_url": "https://x.com/example/status/1234567890123456789",
+      "target_text": "AI will replace 3D artists by 2027",
+      "why": "Big creative account, early, our core topic",
+      "options": [
+        "AI replaced the cheapest 20% of our briefs. The other 80% got more expensive, because brands now want what AI can't fake: exact product, exact light, every frame approved.",
+        "We use both on every job. AI for the moodboard in an hour, 3D for the frame the client signs off on.",
+        "Every year something replaces 3D artists. We're still booked."
+      ]
+    }
+  ],
+  "render_requests": [
+    {
+      "title": "Spec ad: phone unfolds into a skyline",
+      "shot": "6-8 s. Phone on black, screen glows, it unfolds like a pop-up book into a night city. Slow push-in, one hit of sound.",
+      "length": "6-8 s",
+      "deadline": "within 36 h",
+      "why": "Launch is top trend; spec ads for launches get reposted by fans of the brand"
+    }
+  ]
+}

@@ -1,7 +1,36 @@
-# X Growth Agent for Evolves Studio: Ideation & Design (v0.1, draft for review)
+# X Growth Agent for Evolves Studio: Design
 
-> Status: **ideation, not built yet**. We finalize this doc together, then build in phases.
-> Last researched: 2026-10-02.
+> **v1.0 (2026-10-02): decisions locked, build started → see [`x-agent/`](../x-agent/README.md).**
+> Section "v1 decisions" below overrides anything in the original ideation (v0.1) further down.
+
+## v1 decisions (from Ishaan's answers)
+
+| Topic | Decision |
+|---|---|
+| Access | **No X API.** The agent reads X through Ishaan's logged-in Chrome (Claude in Chrome), at a human pace, read-only. |
+| Posting | Agent writes posts, replies and quotes and opens them as **intent links** (Chrome tab + Telegram). **Ishaan clicks Post.** Same for comments. |
+| Runtime | Claude Desktop **Cowork** with scheduled tasks + Claude in Chrome, on the Claude subscription. No paid tools. |
+| Premium | Not Premium → 280-char posts, threads for depth, no links in main posts, win on hooks/replies/media. Weekly review re-checks this. |
+| Niche | **Whole creative space + whole freelancing space.** 3D commercials are the studio's proof, not the content's center. |
+| Core game | **Viral bridge**: anything going viral, in or outside the niche, connected to the creative/freelance world. ~45% of posts by default. |
+| Posts/day | Decided by data inside safe limits: start at 3 (spaced ≥3 h), range 2–5; the weekly review adjusts. |
+| Competitors | Living watchlist: the agent keeps discovering top creators, fast risers and viral posts; it doesn't use a fixed list. |
+| Media | Ishaan's real renders first; spec-ad/FOOH "render requests" for viral moments; auto-generated branded cards. |
+| Alerts | Telegram bot (free). |
+| Timezone | IST, slots aimed at the global (US-heavy) creative audience + India. |
+| Schedule | Day 1 = deep research only. Posting starts Day 2. Weekly review every Sunday. |
+
+## What got built (v1)
+- `x-agent/CLAUDE.md`: agent rules, arena, file map, hard safety rules
+- `x-agent/tasks/`: Day-1 research, morning pack, reply radar (3×/day), evening log, weekly review
+- `x-agent/knowledge/`: algorithm facts, winning formats + viral-bridge playbook, writing rules
+- `x-agent/memory/`: positioning, playbook, creators, swipe file, trend log, post/reply logs, experiments, schedule
+- `x-agent/tools/xpack.py`: Daily Pack (one-click intent links, rule checks, Telegram)
+- `x-agent/tools/make_card.py`: branded image cards
+
+---
+
+# Original ideation (v0.1, kept for reference)
 
 ---
 
