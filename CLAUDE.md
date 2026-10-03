@@ -49,6 +49,8 @@ Hard-won lessons from real generations. Add a dated entry whenever the user repo
 
 <!-- Format: - **YYYY-MM-DD** · [skill] · lesson (what happened → what to do) -->
 
+- **2026-10-03** · castkit (animated) · Describing a cel-anime character's clothes as "glossy metallic", "satin sheen" or "shimmering" made GPT Image 2.5 render them as fake plastic next to a matte-cotton character → describe every animated garment as matte everyday cloth with drawn folds, and say outright "not shiny, not metallic, not satin, no reflective highlights". Keep sheen words out of anime prompts entirely.
+- **2026-10-03** · castkit (animated) · To make a second character match an approved one, attach the approved sheet's job id as the "style and rendering authority" and state that the clothes are rendered exactly the way the other character's are.
 - **2026-10-01** · all · Installed the first five skills: shotcaller-v1, motiondojo-v1, castkit-v1, scenecraft-v1, story-bible-builder (with its three reference files).
 - **2026-10-01** · all · Merged all five into `cinema-director`, the unified doctrine that every prompt starts from.
 
