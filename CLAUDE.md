@@ -49,6 +49,7 @@ Hard-won lessons from real generations. Add a dated entry whenever the user repo
 
 <!-- Format: - **YYYY-MM-DD** · [skill] · lesson (what happened → what to do) -->
 
+- **2026-10-03** · keyframes (GPT Image 2.5) · Attaching a sheet of an infant wearing only a diaper to a scene keyframe got the image falsely flagged as NSFW (2 of 2). The same scenes passed with that sheet removed and the infant described in text, tucked under a blanket up to the chest. → For scene images, never attach diaper-only infant references. Describe infants as swaddled or blanketed, and add "wholesome, cozy" tone words.
 - **2026-10-03** · castkit (animated) · Describing a cel-anime character's clothes as "glossy metallic", "satin sheen" or "shimmering" made GPT Image 2.5 render them as fake plastic next to a matte-cotton character → describe every animated garment as matte everyday cloth with drawn folds, and say outright "not shiny, not metallic, not satin, no reflective highlights". Keep sheen words out of anime prompts entirely.
 - **2026-10-03** · castkit (animated) · To make a second character match an approved one, attach the approved sheet's job id as the "style and rendering authority" and state that the clothes are rendered exactly the way the other character's are.
 - **2026-10-01** · all · Installed the first five skills: shotcaller-v1, motiondojo-v1, castkit-v1, scenecraft-v1, story-bible-builder (with its three reference files).
