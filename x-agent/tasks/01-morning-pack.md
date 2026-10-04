@@ -24,7 +24,9 @@ and the last 3 days of `memory/trend-log.md` and `memory/post-log.csv`. Budget: 
 For each slot choose: pillar, format, hook type, media, hypothesis (from `memory/experiments.md`), and whether it's
 proven (70%), variation (20%) or wild (10%). Viral bridges of live trends (in or outside the niche) get the
 share set in `memory/positioning.md` (default: about half of the day's posts, never less than one).
-Media priority: Ishaan's real renders (`memory/media-library.md`) > card from `tools/make_card.py` > text-only.
+Media priority: Ishaan's real renders (`memory/media-library.md`) > premium 3D image from `tools/make_media.py`
+(see CLAUDE.md; check every render visually before using it) > flat card from `tools/make_card.py` > text-only.
+Every original post ships with media.
 If the best idea needs a new render (spec ad / FOOH / recreate), put it in the pack as a **"Render request"** with a
 shot description, length, deadline (trend lifespan), and the post text ready to go once the render exists.
 
@@ -45,6 +47,19 @@ Each reply gets 3 options (value / counterpoint / funny or visual). Follow the r
 ## 7. Build & deliver
 - Write `packs/YYYY-MM-DD.json` (format: `packs/EXAMPLE.json`, including `render_requests` when a new render is needed).
 - Run `python tools/xpack.py packs/YYYY-MM-DD.json`. Fix every warning it prints, rebuild.
-- Open `packs/YYYY-MM-DD.html` in a new Chrome tab. Telegram gets the summary + one-tap links.
+- Open `packs/YYYY-MM-DD.html` with PowerShell Start-Process (see CLAUDE.md). Telegram gets the summary + one-tap links.
 - If Telegram send fails from the sandbox, open the printed `api.telegram.org/...sendMessage?...` URLs in Chrome tabs
   (that sends them), then close those tabs.
+
+## Viral checklist applied to EVERY pack (from knowledge/viral-playbook.md)
+Each post object in the pack JSON must have:
+- `text` with **1–2 hashtags** at the end (community tag + topic/trending tag, `knowledge/hashtags.md`)
+- `media` (real render > `make_media.py` render, which you must view before shipping) + `alt_text`
+- `communities`: 1–2 matching X Communities from the playbook table ({"name","url"})
+- `golden_hour_replies`: 3–4 short replies to the comments this post will most likely get
+- `poll` (optional): 2–4 options for debate posts (then no media)
+- `pin: true` on the best post of the week or the free-ad giveaway
+And `brief.checklist`: 6–10 concrete actions for today, in order (replies first, golden hour times, communities to post in,
+render requests, notification bells to turn on, profile fixes still open). Keep 8–12 replies in `replies`.
+Once a week (Monday), include the **free 3D ad giveaway** post ("reply with your brand") with `pin: true`.
+

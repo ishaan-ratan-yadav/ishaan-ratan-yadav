@@ -47,7 +47,10 @@ def weighted_length(text: str) -> int:
     return length
 
 
-def check_post(text: str, *, main_post: bool = True) -> list[str]:
+MAX_TAGS = 2  # 1-2 relevant hashtags beat 0 and 3+ (see knowledge/hashtags.md)
+
+
+def check_post(text: str, *, main_post: bool = True, reply: bool = False) -> list[str]:
     """Return a list of rule problems for one post (empty list = OK)."""
     problems = []
     n = weighted_length(text)
@@ -56,8 +59,12 @@ def check_post(text: str, *, main_post: bool = True) -> list[str]:
     if main_post and URL_RE.search(text):
         problems.append("link in main post (put links in a self-reply instead)")
     tags = HASHTAG_RE.findall(text)
-    if len(tags) > 1:
-        problems.append(f"{len(tags)} hashtags (max 1)")
+    if len(tags) > MAX_TAGS:
+        problems.append(f"{len(tags)} hashtags (max {MAX_TAGS})")
+    if main_post and not tags:
+        problems.append("no hashtag: add 1-2 from knowledge/hashtags.md (or today's trending tag)")
+    if reply and tags:
+        problems.append("hashtag in a reply looks spammy: remove it")
     first_line = text.strip().split("\n", 1)[0]
     if len(first_line) > 100:
         problems.append("hook (first line) longer than 100 chars")
@@ -94,7 +101,8 @@ main{max-width:760px;margin:0 auto;padding:24px 16px 64px}h1{font-size:22px;marg
 a.btn,button{appearance:none;border:0;border-radius:10px;padding:9px 14px;font:600 14px system-ui;cursor:pointer;text-decoration:none;display:inline-block}
 a.btn{background:var(--accent);color:var(--accent-ink)}button{background:var(--chip);color:var(--ink)}
 .count{font-size:12px;color:var(--muted)}.warn{color:var(--warn);font-size:13px}.ok{color:var(--ok);font-size:13px}
-.why{color:var(--muted);font-size:13px}label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.why{color:var(--muted);font-size:13px}.tip{background:var(--chip);border-radius:10px;padding:10px 12px;margin-top:8px;font-size:14px}.tip a,.why a,.row a:not(.btn){color:var(--accent)}
+.chip.hot{background:var(--accent);color:var(--accent-ink)}ol{padding-left:20px;margin:6px 0}ol li{margin:3px 0}label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
 ul{padding-left:18px;margin:6px 0}details{margin-top:8px}summary{cursor:pointer;color:var(--muted);font-size:13px}
 img.media{max-width:100%;border-radius:10px;margin-top:8px}
 """
@@ -130,10 +138,12 @@ def _done_box(item_id: str) -> str:
 
 def render_post(p: dict) -> str:
     chips = [p.get("slot"), p.get("pillar"), p.get("format"), p.get("hook_type")]
+    if p.get("pin"):
+        chips.insert(0, "PIN THIS")
     score = p.get("score")
     if score is not None:
         chips.append(f"score {score}")
-    meta = "".join(f'<span class="chip">{html.escape(str(c))}</span>' for c in chips if c)
+    meta = "".join(f'<span class="chip{" hot" if c == "PIN THIS" else ""}">{html.escape(str(c))}</span>' for c in chips if c)
     out = [f'<div class="card"><div class="meta">{meta}</div>']
     if p.get("hypothesis"):
         out.append(f'<div class="why">Testing: {html.escape(p["hypothesis"])}</div>')
@@ -153,12 +163,29 @@ def render_post(p: dict) -> str:
         out.append(_textblock(p["self_reply_link"]) + "</details>")
     media = p.get("media")
     if media:
-        if re.search(r"\.(png|jpe?g|gif|webp)$", media, re.I):
-            out.append(f'<div class="why">Attach this media before posting:</div>'
-                       f'<img class="media" src="{html.escape(media)}" alt="">'
-                       f'<div class="why">{html.escape(media)}</div>')
-        else:
-            out.append(f'<div class="why">Media: {html.escape(media)}</div>')
+        m = re.search(r"(media/[^\s)]+\.(?:png|jpe?g|gif|webp))", media, re.I)
+        out.append(f'<div class="why">{html.escape(media)}</div>')
+        if m:
+            out.append(f'<a href="../{html.escape(m.group(1))}" target="_blank"><img class="media" src="../{html.escape(m.group(1))}" alt=""></a>')
+    if p.get("alt_text"):
+        out.append('<details><summary>Alt text (paste into the image description: helps reach and accessibility)</summary>')
+        out.append(_textblock(p["alt_text"]) + "</details>")
+    if p.get("poll"):
+        out.append('<div class="tip"><b>Add a poll</b> in X before posting (polls cannot carry an image, so post without media): '
+                   + " · ".join(html.escape(o) for o in p["poll"]) + "</div>")
+    comms = p.get("communities", [])
+    if comms:
+        def _c(c):
+            name, url = (c.get("name"), c.get("url")) if isinstance(c, dict) else (c, None)
+            link = f' (<a href="{html.escape(url)}" target="_blank" rel="noopener">join it first</a>)' if url else ""
+            return f"<b>{html.escape(name)}</b>{link}"
+        alt = f"<br>Not joined yet or not a fit? Use <b>{_c(comms[1])}</b> instead. One community per post only." if len(comms) > 1 else ""
+        out.append(f'<div class="tip">Post this in the X Community {_c(comms[0])}: after "Open in X", click '
+                   f'<b>Everyone</b> above the text box, pick the community, attach the image, Post.{alt}</div>')
+    if p.get("golden_hour_replies"):
+        out.append('<details open><summary>First hour: ready replies for the comments you will likely get</summary><ul>')
+        out.extend(f"<li>{html.escape(g)}</li>" for g in p["golden_hour_replies"])
+        out.append("</ul></details>")
     if p.get("alt_hooks"):
         out.append('<details><summary>Alternative hooks</summary><ul>')
         out.extend(f"<li>{html.escape(h)}</li>" for h in p["alt_hooks"])
@@ -180,7 +207,7 @@ def render_reply(r: dict, idx: int) -> str:
     out.append(f'<div class="row"><a href="{html.escape(r.get("target_url", "#"))}" target="_blank" rel="noopener">View original post</a></div>')
     for j, opt in enumerate(r.get("options", []), 1):
         out.append(_textblock(opt))
-        out.append(_problems_html(check_post(opt, main_post=False)))
+        out.append(_problems_html(check_post(opt, main_post=False, reply=True)))
         if tid:
             out.append(f'<div class="row"><a class="btn" href="{html.escape(intent_url(opt, tid))}" '
                        f'target="_blank" rel="noopener">Reply with option {j}</a></div>')
@@ -224,6 +251,13 @@ def render_pack(pack: dict) -> str:
         if brief.get("golden_hour"):
             parts.append(f"<p class='why'>{html.escape(brief['golden_hour'])}</p>")
         parts.append("</div>")
+    if brief.get("checklist"):
+        parts.append('<h2>Today’s viral checklist</h2><div class="card"><ol>')
+        parts.extend(f"<li>{html.escape(c)}</li>" for c in brief["checklist"])
+        parts.append("</ol></div>")
+    if pack.get("replies"):
+        parts.append("<h2>Replies first (early replies under big posts are your main reach right now)</h2>")
+        parts.extend(render_reply(r, i) for i, r in enumerate(pack["replies"]))
     if pack.get("render_requests"):
         parts.append("<h2>Render requests (make these, then post)</h2>")
         for rr in pack["render_requests"]:
@@ -238,9 +272,6 @@ def render_pack(pack: dict) -> str:
     if pack.get("quotes"):
         parts.append("<h2>Quote posts</h2>")
         parts.extend(render_quote(q, i) for i, q in enumerate(pack["quotes"]))
-    if pack.get("replies"):
-        parts.append("<h2>Replies (post these fast, early replies get seen)</h2>")
-        parts.extend(render_reply(r, i) for i, r in enumerate(pack["replies"]))
     parts.append(f"<script>{JS}</script></main></body></html>")
     return "".join(parts)
 
@@ -249,7 +280,7 @@ def render_pack(pack: dict) -> str:
 
 def load_config() -> dict:
     cfg = ROOT / "config.json"
-    return json.loads(cfg.read_text()) if cfg.exists() else {}
+    return json.loads(cfg.read_text(encoding="utf-8")) if cfg.exists() else {}
 
 
 def telegram_messages(pack: dict, pack_path: Path) -> list[str]:
@@ -321,14 +352,14 @@ def main() -> int:
         ap.error("pack path required")
 
     pack_path = Path(args.pack).resolve()
-    pack = json.loads(pack_path.read_text())
+    pack = json.loads(pack_path.read_text(encoding="utf-8"))
     bad = 0
     for p in pack.get("posts", []):
         for prob in check_post(p["text"]):
             bad += 1
             print(f"[{p['id']}] {prob}", file=sys.stderr)
     out = pack_path.with_suffix(".html")
-    out.write_text(render_pack(pack))
+    out.write_text(render_pack(pack), encoding="utf-8")
     print(f"Wrote {out}")
     if not args.no_send:
         send_telegram(telegram_messages(pack, out), load_config())

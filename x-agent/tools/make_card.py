@@ -35,7 +35,7 @@ def brand() -> dict:
     cfg = ROOT / "config.json"
     b = dict(DEFAULT_BRAND)
     if cfg.exists():
-        b.update(json.loads(cfg.read_text()).get("brand", {}))
+        b.update(json.loads(cfg.read_text(encoding="utf-8")).get("brand", {}))
     return b
 
 

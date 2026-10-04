@@ -22,7 +22,8 @@
   → Link always goes in a self-reply.
 - **Premium accounts get several times more reach.** We are NOT Premium → we must win on hooks, replies and media.
   Revisit Premium if growth stalls (weekly review decides).
-- Hashtags barely matter; more than one hurts. Use 0–1.
+- Hashtags: 1–2 relevant tags beat 0 and 3+ (2026 analyses). The semantic model finds topics anyway, but community
+  hashtag feeds (#b3d, #freelance) have real people browsing them. Rules in `hashtags.md`. (Updated 2026-10-04.)
 - Native video and images lift dwell and "video quality view". 3D motion is our unfair advantage.
 - Generic best times: weekdays, audience morning to early afternoon. Our audience is global (US-heavy on X) + India.
   Use own data after ~2 weeks (`memory/schedule.md`).

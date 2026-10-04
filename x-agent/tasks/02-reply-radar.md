@@ -12,5 +12,7 @@ Early replies (first 15–30 min of a post's life) get the most visibility. Budg
 5. Pick the best 6–10 targets. For each, 3 reply options. Skip if we can't add real value.
 6. Optional: 0–1 quote post if something viral is squarely in our arena.
 7. Write `packs/YYYY-MM-DD-HHMM.json` with `replies` (+ `quotes`), run `python tools/xpack.py` on it,
-   open the HTML in Chrome, Telegram sends the one-tap reply links.
+   open the HTML with Start-Process, Telegram sends the one-tap reply links.
 8. Append targets to `memory/reply-log.csv` (status `drafted`).
+
+Rules from knowledge/viral-playbook.md §5: be in the first 10 replies, add something real, no hashtags and no self-promo in replies, and suggest a visual reply (render/card) on the 1–2 best targets.

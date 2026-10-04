@@ -1,0 +1,61 @@
+{
+  "product": {
+    "name": "FreshLeads",
+    "url": "https://getfreshleads.io",
+    "one_liner": "Weekly curated D2C brand leads: real founder inboxes (SMTP-verified, no pattern guesses), a dated newsworthy reason to pitch each one, and pre-written cold email copy. Each lead is sold to max 5 buyers, then retired forever.",
+    "ideal_customer": "Agencies, freelancers and consultants who sell services to D2C / Shopify / ecommerce brands (email & Klaviyo, paid ads, CRO, design, content, UGC, 3D, dev) and need a steady flow of fresh prospects.",
+    "problems_solved": [
+      "Apollo/ZoomInfo lists are stale, bounce, and every competitor emails the same founders",
+      "Hours spent finding the real founder email for D2C brands",
+      "Generic cold emails with no reason to reach out get 1-2% replies",
+      "No steady pipeline of new D2C clients"
+    ],
+    "your_voice": "Casual, helpful, first person. I'm the founder and I do outreach myself."
+  },
+
+  "my_reddit_username": "YOUR_REDDIT_USERNAME",
+
+  "warmup_until": "2026-10-12",
+
+  "subreddits": [
+    "agency", "LeadGeneration", "sales", "freelance", "emailmarketing", "klaviyo",
+    "PPC", "FacebookAds", "digital_marketing", "marketing", "Entrepreneur", "b2bmarketing",
+    "EntrepreneurRideAlong", "ecommerce", "shopify", "forhire", "growmybusiness", "coldoutreach"
+  ],
+
+  "no_promo_subreddits": ["Entrepreneur", "sales", "marketing", "ecommerce", "shopify", "digital_marketing", "smallbusiness", "influencermarketing"],
+
+  "post_requirements": {
+    "agency": "posts only from people who already comment there: comment ~10x first"
+  },
+
+  "rising_subreddits": ["agency", "LeadGeneration", "coldoutreach", "EntrepreneurRideAlong", "Emailmarketing", "klaviyo", "FacebookAds", "SideProject"],
+
+  "exclude_subreddits": ["test", "testingground4bots", "jobs", "recruitinghell", "antiwork", "cscareerquestions"],
+
+  "search_queries": [
+    "\"apollo alternative\" OR \"zoominfo alternative\" OR \"apollo bounce\" OR \"apollo data\" OR \"generic lead list\"",
+    "\"d2c leads\" OR \"dtc leads\" OR \"ecommerce leads\" OR \"shopify leads\" OR \"leads for my agency\"",
+    "\"reach out to brands\" OR \"connect with brands\" OR \"find ecommerce clients\" OR \"find shopify clients\" OR \"dtc brands\" outreach",
+    "\"lead list\" OR \"buy leads\" OR \"lead provider\" OR \"lead database\"",
+    "\"cold email\" brands OR \"cold emailing brands\" OR \"emailing founders\" OR \"clients for my agency\"",
+    "\"founder email\" OR \"founder emails\" OR \"decision maker email\" OR \"marketing@\""
+  ],
+
+  "negative_keywords": [
+    "internship", "intern ", "resume", "gpa", "admission", "job offer", "placement", "hiring me",
+    "graduate school", "phd", "recruiter", "residency", "salary"
+  ],
+
+  "keywords": [
+    "d2c", "dtc", "shopify", "ecommerce", "e-commerce", "brand owners", "founder",
+    "leads", "lead list", "lead gen", "find clients", "get clients", "first client", "clients",
+    "cold email", "outreach", "apollo", "zoominfo", "clay", "bounce", "no replies",
+    "prospecting", "pipeline", "outbound", "klaviyo", "agency"
+  ],
+
+  "comment_gap_minutes": 10,
+  "max_post_age_hours": 36,
+  "min_relevance_score": 7,
+  "max_leads_per_run": 20
+}

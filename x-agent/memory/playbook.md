@@ -14,9 +14,12 @@ The weekly review promotes a rule to PROVEN only with ≥3 supporting posts from
 ## Engagement
 - [algorithm] Reply to every comment in the first hour after posting.
 - [unproven] 10–20 value replies/day under bigger arena accounts drive more follows than our own posts in month 1.
+- [Day 1 evidence] At 1 follower, our own posts get 1-24 views. Replies are the ONLY distribution until ~100 followers. Pack order: replies first.
 
 ## Media styles
-(Day 1 fills this from the arena scan.)
+- [unproven, 2026-10-04] Process/wireframe breakdowns and 'AI vs 3D' comparisons are this month's winning creative formats (iProee 2.18M, andrewpprice AI-vs-3D tests).
+- [unproven] Y2K/chrome nostalgia is trending (Jeff_in_3D 1.33M).
+- [unproven] Showcase clip + ≤6-word caption riding a hot tool (EHuanglu 1.3M).
 
 ## Changelog
 - v0.0 (2026-10-02): starting rules from research.

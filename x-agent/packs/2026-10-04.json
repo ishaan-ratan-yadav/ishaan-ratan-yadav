@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-04",
+  "brief": {
+    "summary": "Day 1 pack (built 18:05 IST from live research in your Chrome). Account: @creasivestudio, 1 follower, recent posts 1-24 views. At this size original posts barely get shown, so REPLIES under big accounts are the main growth lever this week. Do the replies first, then post.",
+    "trends": [
+      {
+        "name": "Seedance 2.5 + Opus 5.5 AI video",
+        "why": "@EHuanglu 1.3M views, @xmliisu 1.55M views in 48h. Whole creative X is posting clips and arguing about cost",
+        "angle": "AI for the vibe, 3D for the exact product. You are the person who can say where each wins"
+      },
+      {
+        "name": "Nothing x Taehyung (V) headphone ad + Nothing Phone (4a) promoted in India",
+        "why": "IG collab post at 5M likes / 1.1M shares, being discussed on X; Phone (4a) is the promoted trend in India today",
+        "angle": "Spec 3D ad for Nothing's glyph lights (render request R1). The brand's fans repost spec ads"
+      },
+      {
+        "name": "'freelance = maybe unemployed' joke",
+        "why": "@0bNARA 1k likes / 26k views, still getting quoted",
+        "angle": "Own the joke from the freelancer side, ask a question that every freelancer can answer"
+      },
+      {
+        "name": "Y2K 3D aesthetic nostalgia",
+        "why": "@Jeff_in_3D 1.33M views on an account with 1.9k followers (700x his normal)",
+        "angle": "Rebuild a modern D2C product in that exact tacky Y2K style (render request R2)"
+      },
+      {
+        "name": "'Logos redrawn by memory' design experiment",
+        "why": "@internetpreai 167k views, 313 bookmarks",
+        "angle": "Brand lesson: if customers can't draw it, it isn't working"
+      }
+    ],
+    "golden_hour": "Golden hour = the 30-60 min after each post. Reply to every comment fast and ask a follow-up question: the author replying to replies is the strongest ranking signal X has.",
+    "checklist": [
+      "One-time (10 min): join the 11 X Communities listed in knowledge/viral-playbook.md (links there). The agent never joins for you.",
+      "One-time: turn on the post-notification bell for @EHuanglu, @PJaccetturo, @andrewpprice, @iProee, @buildwithsid, @southernshotty, @TidalDrawZZ so you're first to reply.",
+      "One-time: fix the profile (bio, pinned post, banner, name field 'Ishaan | 3D ads'). Options in memory/weekly/day1-report.md.",
+      "Now: post 3-5 replies from 'Replies first'. Use 'Reply with option N', no hashtags in replies.",
+      "18:30: post P1 with its image + alt text, then share it to the Generative AI community. Stay 30 min and answer every comment (ready replies under the post).",
+      "21:30: P2 + share to The Design Sphere. Same golden-hour routine.",
+      "Tomorrow 09:30: P3. Monday 18:30: P4 free-ad giveaway, then pin it.",
+      "Within 48 h: make render request R1 (Nothing Phone 4a spec ad) and tag @nothing when posting. Real renders beat every generated image."
+    ]
+  },
+  "posts": [
+    {
+      "id": "P1",
+      "slot": "18:30 IST today",
+      "pillar": "Viral bridge",
+      "format": "image + text",
+      "hook_type": "contrarian",
+      "score": 8.4,
+      "hypothesis": "Taking a clear side on the week's biggest creative trend earns replies from both camps",
+      "text": "everyone's posting seedance 2.5 clips this week. they look insane.\n\nnow make one where a brand's real product, exact cap and label, stays identical in every frame.\n\nthat gap is the whole 3D ad business now.\n\nAI for the vibe. 3D for the product.\n\n#AIvideo #b3d",
+      "media": "Attach: media/2026-10-04_P1_ai-vs-3d.jpg (or your sharpest real product render)",
+      "alt_hooks": [
+        "seedance 2.5 can make anything. except your client's actual product.",
+        "AI video got scary good this week. here's the one thing clients still pay 3D studios for:"
+      ],
+      "alt_text": "Two 3D bottles on a dark stage. Left: a warped, glitching AI-style bottle with a smeared, misspelled label. Right: a clean black bottle with a crisp white EVOLVE label. Text: AI for the vibe, 3D for the product.",
+      "communities": [
+        {
+          "name": "Generative AI (254K)",
+          "url": "https://x.com/i/communities/1601841656147345410"
+        },
+        {
+          "name": "AI Video & Filmmakers",
+          "url": "https://x.com/i/communities/1864486263094411711"
+        }
+      ],
+      "golden_hour_replies": [
+        "fair, for moodboards and pitches AI wins on speed. we use it there too",
+        "the day it holds a label for 15 seconds without drifting, i'll switch. not this week",
+        "which one have you seen hold a real product best so far?",
+        "3D still loses on speed. that's the honest trade"
+      ]
+    },
+    {
+      "id": "P2",
+      "slot": "21:30 IST today",
+      "pillar": "Viral bridge (outside niche)",
+      "format": "image + text",
+      "hook_type": "challenge",
+      "score": 7.6,
+      "hypothesis": "A design experiment people already love, turned into a test brands can run, gets bookmarks + replies",
+      "text": "the 'logos redrawn by memory' experiment is the best brand test nobody runs.\n\nask 10 customers to draw your logo. no peeking.\n\nif nobody gets close, it isn't a logo. it's decoration.\n\nwhich brand logo could you draw perfectly right now?\n\n#branding #logodesign",
+      "media": "Attach: media/2026-10-04_P2_logo-memory.jpg",
+      "alt_hooks": [
+        "draw your logo from memory. if your customers can't, it's decoration."
+      ],
+      "alt_text": "Left: a messy tangle of chrome tubes labeled decoration. Right: one clean purple rounded square with a circle cut out, labeled a logo. Text: Draw your logo from memory.",
+      "communities": [
+        {
+          "name": "The Design Sphere (668K)",
+          "url": "https://x.com/i/communities/1453877367030484992"
+        },
+        {
+          "name": "Branding & Brand Design",
+          "url": "https://x.com/i/communities/1506780333034782720"
+        }
+      ],
+      "golden_hour_replies": [
+        "nike and apple, every time. one shape each",
+        "the test works on packaging too. can they draw your bottle?",
+        "most rebrands fail this test on day one",
+        "drop yours, i'll tell you honestly if it passes"
+      ]
+    },
+    {
+      "id": "P3",
+      "slot": "09:30 IST tomorrow",
+      "pillar": "Freelance & creative business",
+      "format": "image + text",
+      "hook_type": "pattern interrupt",
+      "score": 7.9,
+      "hypothesis": "A relatable freelancer truth + an easy question gets replies from every freelancer who sees it",
+      "text": "saw a viral joke that freelancers have a non zero chance of being unemployed.\n\nit's worse. freelancing is being unemployed on the 1st of every month until someone pays an invoice.\n\nwhat's the longest you've gone between paid projects?\n\n#freelance #freelancelife",
+      "media": "Attach: media/2026-10-04_P3_invoice.jpg",
+      "alt_hooks": [
+        "freelancing is being unemployed until someone pays an invoice."
+      ],
+      "alt_text": "A curled paper invoice stamped UNPAID floating between gold coins. Line items include revisions round 6 for 0.00. Text: Freelancing is being unemployed until someone pays an invoice.",
+      "communities": [
+        {
+          "name": "Freelance Starters",
+          "url": "https://x.com/i/communities/1508982079245021185"
+        },
+        {
+          "name": "Freelance India",
+          "url": "https://x.com/i/communities/1868675400890769529"
+        }
+      ],
+      "golden_hour_replies": [
+        "50% upfront fixed most of this for us. still not all of it",
+        "the 'seen day 3' is the part that hurts",
+        "net 30 really means net 60, nobody told me",
+        "what made you finally start charging a deposit?"
+      ]
+    },
+    {
+      "id": "P4",
+      "slot": "Mon 18:30 IST, then PIN it",
+      "pin": true,
+      "pillar": "Proof (Evolves work)",
+      "format": "image + text",
+      "hook_type": "challenge",
+      "score": 8.6,
+      "hypothesis": "A free-ad giveaway pulls replies from brands (leads) and gives the account a reason to follow",
+      "text": "free 3D ad, this week.\n\nreply with your brand (any D2C product, any size).\n\ni'll pick one and turn a product photo from your site into a 3D ad. no call, no catch.\n\nthe finished ad goes up right here.\n\n#DTC #b3d",
+      "media": "Attach: media/2026-10-04_P4_free-ad.jpg",
+      "alt_text": "Glossy purple 3D blob with a glass sphere and chrome ring on a dark stage. Text: Your product. Our 3D. Free. Reply with your brand.",
+      "communities": [
+        {
+          "name": "Startup Community (193K)",
+          "url": "https://x.com/i/communities/1471580197908586507"
+        },
+        {
+          "name": "Blender",
+          "url": "https://x.com/i/communities/1471902001629904896"
+        }
+      ],
+      "golden_hour_replies": [
+        "love this one, what's the product photo you'd want us to use?",
+        "noted. picking on friday, every reply counts",
+        "tag a founder who needs this",
+        "already in the shortlist"
+      ],
+      "alt_hooks": [
+        "your product, our 3D, free. reply with your brand."
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "author": "@Jeff_in_3D",
+      "target_url": "https://x.com/Jeff_in_3D/status/2106130801893282061",
+      "why": "1.33M views, Y2K 3D nostalgia, our exact craft. Quote early in the US day",
+      "text": "it was tacky then. now brands pay for this look on purpose.\n\nrebuilding a modern product in this exact style this week. will post it here."
+    },
+    {
+      "author": "@juliarturc",
+      "target_url": "https://x.com/juliarturc/status/2106578472110022769",
+      "why": "73k views, 179 replies, AI video cost debate, 10h old and still active",
+      "text": "the unit economics only work for vibes.\n\nthe second a client says 'make the label match our packaging in every shot', you're back to 3D, where the 40th revision costs electricity, not credits."
+    }
+  ],
+  "replies": [
+    {
+      "author": "@Ciri_ai",
+      "posted_ago": "~6h",
+      "target_url": "https://x.com/Ciri_ai/status/2106625814653698268",
+      "target_text": "smartest place to spend AI video credits is AFTER you've made the creative decision",
+      "why": "12k views, AI video crowd, we add a 3D-production angle",
+      "options": [
+        "same rule saves 3D jobs.\n\nwe lock camera and timing in a grey box before a single final render. clients approve the blockout, not the pixels.",
+        "this is the old previs rule wearing a new outfit. decide the shot cheap, render it once.",
+        "the expensive part was never the render. it's the 'can we try one more angle' after it."
+      ]
+    },
+    {
+      "author": "@juliarturc",
+      "posted_ago": "~10h",
+      "target_url": "https://x.com/juliarturc/status/2106578472110022769",
+      "target_text": "video generation IS EXPENSIVE. $8 for 15s of unsalvageable garbage 720p draft",
+      "why": "179 replies, the cost debate is our home turf. Use if you don't quote it",
+      "options": [
+        "the hidden cost is the reroll.\n\nin 3D the 40th revision of the same shot costs electricity. in AI it costs the same as the first.",
+        "most AI slop is made by people who never had a client ask for the exact label in frame 3."
+      ]
+    },
+    {
+      "author": "@houmi_art",
+      "posted_ago": "~16h",
+      "target_url": "https://x.com/houmi_art/status/2106474606030905563",
+      "target_text": "Hot take: honest artists can easily prove their innocence with WIPs",
+      "why": "artist community debate; WIPs = our breakdown content, natural fit",
+      "options": [
+        "WIPs are the new portfolio. clients ask us for the wireframe before they ask for the final now.",
+        "a breakdown is the one thing a generator can't fake yet. post them even when nobody asks."
+      ]
+    },
+    {
+      "author": "@0bNARA",
+      "posted_ago": "~1 day",
+      "target_url": "https://x.com/0bNARA/status/2106332029084369303",
+      "target_text": "when someone tells you they are freelance there's a non zero chance they are just entirely unemployed",
+      "why": "26k views; a funny freelancer reply can pick up profile clicks",
+      "options": [
+        "freelance is unemployed with invoices.",
+        "it's a quantum state. unemployed until the client replies to the invoice email."
+      ]
+    },
+    {
+      "author": "@OmaeOkara",
+      "posted_ago": "~7h",
+      "target_url": "https://x.com/OmaeOkara/status/2106617575807312060",
+      "target_text": "POV: Bring those OCD clients. I am the OCD contractor. clear lines and angles",
+      "why": "96k views, craft pride, any creative relates",
+      "options": [
+        "every client who said 'it's fine, nobody will notice' noticed.",
+        "the OCD client and the OCD contractor are the only people who ever ship something clean."
+      ]
+    }
+  ],
+  "render_requests": [
+    {
+      "title": "Spec ad: Nothing Phone (4a) glyph lights",
+      "shot": "Phone face-down on black. Glyph lights pulse to a beat, then the back goes transparent and the internals light up one by one. Slow orbit, one sound hit at the end.",
+      "length": "6-8 s",
+      "deadline": "within 48 h (while the festive campaign is promoted)",
+      "why": "Nothing's fans repost anything about the brand, and the V headphone ad has everyone talking about Nothing's marketing. Post with: 'made a spec ad for nothing's phone (4a) because their glyphs deserve better than a static shot'"
+    },
+    {
+      "title": "Y2K aesthetic rebuild of a modern D2C product",
+      "shot": "Any current product (a Prime bottle, a boAt earbud) dropped into a 2003-style chrome/bubble/lens-flare world. Make it tacky on purpose.",
+      "length": "5-6 s or a still",
+      "deadline": "within 72 h, then reply under @Jeff_in_3D's post with it",
+      "why": "Pays off the quote tweet promise; nostalgia + product = shareable"
+    }
+  ]
+}

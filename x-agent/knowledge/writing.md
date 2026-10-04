@@ -24,7 +24,7 @@ examples only, real posts use real facts):
 ## Banned (sounds AI-written, hurts dwell)
 Em dashes (—), "delve", "game-changer", "unleash", "elevate", "in today's fast-paced world", "here's the thing",
 "let that sink in", "it's not X, it's Y" constructions, rule-of-three padding, "As a 3D artist,",
-generic praise replies ("Great post!", "So true 🔥"), emoji walls, more than one hashtag.
+generic praise replies ("Great post!", "So true 🔥"), emoji walls, more than two hashtags, hashtags in replies.
 
 ## Replies
 - Must add something: a fact, experience, counterpoint, joke, or visual. If you can't add anything, skip the post.

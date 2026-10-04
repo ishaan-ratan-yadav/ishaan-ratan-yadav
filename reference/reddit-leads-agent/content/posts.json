@@ -1,0 +1,198 @@
+[
+ {
+  "week": 0,
+  "archetype": "Profile intro (post on your profile now, then pin)",
+  "subs": [
+   "u_YOUR_REDDIT_USERNAME"
+  ],
+  "image": null,
+  "promo": false,
+  "title": "Hi, I'm Ishaan. I help agencies reach D2C founders who actually reply",
+  "body": "Quick intro since you probably clicked my name from a comment.\n\nI run FreshLeads. Every week I pull a small batch of D2C brands, find the founder's real inbox (verified, not guessed), and write down why they'd care right now, like a launch, a retail deal or a raise. Each lead goes to 5 buyers max and then it's retired, so the founder isn't getting hammered by 200 agencies.\n\nI started it because I kept seeing the same thing. People with good offers emailing info@ and marketing@ at brands, getting ghosted, and blaming their copy.\n\nWhat I post about here: cold outreach to ecommerce and Shopify brands, what gets founders to reply, and teardowns of real cold emails.\n\nIf you sell to D2C brands, ask me anything. And if you want to test a few leads in your niche, just DM me, I'll send 5 free.\n\ngetfreshleads.io",
+  "flair": [
+   "none needed (profile post)"
+  ]
+ },
+ {
+  "week": 0,
+  "archetype": "Launch story, built to go viral (post at 50-100 karma)",
+  "subs": [
+   "SideProject",
+   "EntrepreneurRideAlong"
+  ],
+  "image": null,
+  "promo": true,
+  "title": "Every lead database sells the same D2C founder to hundreds of agencies, so I built one that stops selling each lead after 5 buyers",
+  "body": "This started from a pretty annoying pattern.\n\nAgencies selling to ecommerce brands would send me their cold emails and ask why nobody replied. The copy was usually fine. The problem was who they were sending to. info@ and marketing@ inboxes, or founders who'd already been emailed by 40 other agencies that month because everyone buys from the same 3 databases and filters by the same things.\n\nSo I started doing it by hand instead:\n\n- find D2C brands where something just changed (new launch, retail deal, funding, new marketing hire)\n- find the founder's actual inbox and verify it, no firstname@ guessing\n- write down the reason to reach out, with a date on it\n- sell each lead to 5 buyers max, then retire it forever\n\nThat last rule is the weird one. Everyone I've told says I'm leaving money on the table, because a database can sell the same contact 500 times. But if 500 people email a founder, the lead is worthless to all of them. Capping it is the whole point.\n\nHonest part: it's slow. Verifying founders by hand doesn't scale the way scraping does, and some weeks I get fewer brands than I want. I'm still figuring out pricing.\n\nIt's live at getfreshleads.io but I mostly want feedback from people who actually do cold outreach.\n\nIf you sell to D2C brands, comment your niche (skincare, supplements, pet, apparel, whatever) and what you sell them. I'll DM 5 free leads to the first 20 people so you can see if they're any good.\n\nAnd tell me straight: is capping buyers smart, or am I just making a worse business on purpose?",
+  "flair": [
+   "Ride Along Story",
+   "Show and Tell",
+   "Seeking Feedback",
+   "Case Study"
+  ]
+ },
+ {
+  "week": 1,
+  "archetype": "How-to guide (most saved)",
+  "subs": [
+   "coldoutreach",
+   "LeadGeneration",
+   "EntrepreneurRideAlong"
+  ],
+  "image": "free_founder_email.png",
+  "promo": false,
+  "title": "How I find a D2C founder's real email in under 5 minutes, using only free methods",
+  "body": "Most people emailing ecommerce brands hit info@ or hello@ and wonder why nobody replies. Those inboxes are a support queue. At brands under ~$20M, the founder still reads their own inbox and decides on vendors. what I do instead, all free:\n\n1. Shopify store footer, privacy policy and refund policy pages. Founders often leave their own address in legal pages.\n2. LinkedIn: confirm who the founder or head of ecom actually is right now (people change roles a lot).\n3. Podcast show notes and guest pages. Ecom podcasts list guest emails more often than you'd think.\n4. Press releases and launch announcements. Media contact is often the founder at small brands.\n5. Their personal X/Twitter or Instagram bio.\n6. Kickstarter / Indiegogo creator pages for brands that started there.\n7. Guess the pattern (first@, first.last@) ONLY as a last step, then verify it with an SMTP check before sending. Unverified guesses bounce and burn your domain.\n8. If you can't verify it, skip the brand. 20 verified founders beat 200 guessed ones.\n\nWhat's missing from this list? Curious what others use.",
+  "flair": [
+   "Guide",
+   "Resource",
+   "Tips",
+   "Educational",
+   "Discussion"
+  ]
+ },
+ {
+  "week": 1,
+  "archetype": "Engagement: free review thread",
+  "subs": [
+   "coldoutreach",
+   "agency"
+  ],
+  "image": null,
+  "promo": false,
+  "title": "Drop the cold email you send to ecommerce brands below and I'll rewrite it for free",
+  "body": "I spend most of my week on outreach to D2C and Shopify brands, and I keep seeing the same 3 or 4 mistakes kill good offers.\n\nPaste your email in the comments (remove names and links), and tell me:\n- what you sell\n- who you send it to (founder? marketing@?)\n- your current reply rate if you know it\n\nI'll reply with a rewritten version and why I changed what I changed. No pitch, just want to see what people are sending in 2026.\n\nI'll go through every comment over the next 24 hours.",
+  "flair": [
+   "Feedback",
+   "Help",
+   "Discussion",
+   "Question"
+  ]
+ },
+ {
+  "week": 2,
+  "archetype": "Hot take (most comments)",
+  "subs": [
+   "agency",
+   "coldoutreach",
+   "EntrepreneurRideAlong"
+  ],
+  "image": "where_email_lands.png",
+  "promo": false,
+  "title": "Stop emailing info@ when you pitch ecommerce brands. It's a support queue, not a decision maker",
+  "body": "Unpopular opinion: most agency outreach to D2C brands doesn't fail because of the copy. It fails because of the inbox.\n\n- info@ / hello@ / support@: read by whoever handles order issues. Best case you get \"please fill out our partnership form\".\n- marketing@ / partnerships@: read by someone who triages sponsorship spam all day. You get \"send a deck\", then silence.\n- founder / head of ecom: fewer emails, but this is where the yes actually happens at brands under ~$20M.\n\nI see people A/B testing subject lines for weeks while sending to an address that physically cannot say yes.\n\nFix the inbox first, then the copy. Change my mind.",
+  "flair": [
+   "Discussion",
+   "Opinion",
+   "Rant"
+  ]
+ },
+ {
+  "week": 2,
+  "archetype": "Framework + infographic",
+  "subs": [
+   "coldoutreach",
+   "LeadGeneration",
+   "Emailmarketing"
+  ],
+  "image": "three_line_email.png",
+  "promo": false,
+  "title": "The 3-line cold email structure that gets D2C founders to reply (anatomy + example)",
+  "body": "Founders of ecommerce brands read email on their phone between a hundred other things. Long emails die. This is the structure I use:\n\nLine 1, the trigger: something dated and specific. \"Saw you just launched the new protein bar line.\"\nLine 2, the proof: one result for a brand like theirs. \"We helped [similar brand] lift repeat orders [X]% with post-purchase flows.\"\nLine 3, the tiny ask: something easy to say yes to. \"Want me to send a 2 min Loom on your post-purchase emails?\"\n\nWhat to cut: your intro, your agency history, \"hope you're well\", calendar links in email 1, anything over ~70 words.\n\nThe trigger is the part everyone skips, and it's the part that matters most. Without a reason to email now, it reads like a template, because it is one.",
+  "flair": [
+   "Guide",
+   "Tips",
+   "Resource",
+   "Educational"
+  ]
+ },
+ {
+  "week": 3,
+  "archetype": "Lessons list + infographic",
+  "subs": [
+   "agency",
+   "EntrepreneurRideAlong",
+   "LeadGeneration"
+  ],
+  "image": "twelve_triggers.png",
+  "promo": false,
+  "title": "12 signals that a D2C brand will actually reply to you this week",
+  "body": "Timing beats copy. A brand in the middle of a change has a reason to talk to you right now. Signals I watch for:\n\n1. New product launch or new line\n2. First retail doors (Target, Costco, Whole Foods, Sephora)\n3. Funding round announced\n4. New head of growth / ecom / marketing hired\n5. Rebrand or site redesign\n6. Migration to Shopify or Shopify Plus\n7. Expansion into a new country\n8. Big Kickstarter or pre-order success\n9. Sudden jump in Meta ads (check the Ad Library)\n10. Job posts for marketing roles\n11. Founder on a podcast or in the press\n12. A spike of bad reviews about shipping or support\n\nMatch your offer to the signal: new hire = help them win early, retail launch = they need DTC to keep up, ad spike = creative fatigue is coming.\n\nWhich ones am I missing?",
+  "flair": [
+   "Tips",
+   "Guide",
+   "Discussion",
+   "Resource"
+  ]
+ },
+ {
+  "week": 3,
+  "archetype": "Lead magnet (after warm-up)",
+  "subs": [
+   "EntrepreneurRideAlong",
+   "LeadGeneration",
+   "coldoutreach"
+  ],
+  "image": null,
+  "promo": true,
+  "title": "I'll find the founder email and a reason to pitch for 5 D2C brands you're targeting, free",
+  "body": "I run a small service that does this every week for agencies selling to ecommerce brands, and I want feedback on the output from people who actually send cold email.\n\nComment with:\n- the niche you sell into (supplements, skincare, pet, apparel...)\n- what you sell them\n\nI'll DM you 5 brands with the verified founder email and a dated reason to reach out (launch, retail deal, raise, new hire). No card, no call.\n\nAll I ask: tell me honestly if they were useful and whether anyone replied.",
+  "flair": [
+   "Offer",
+   "Feedback",
+   "Show and Tell",
+   "Seeking Feedback"
+  ]
+ },
+ {
+  "week": 4,
+  "archetype": "Engagement query (numbers)",
+  "subs": [
+   "agency",
+   "coldoutreach"
+  ],
+  "image": null,
+  "promo": false,
+  "title": "Agencies selling to ecommerce brands: what's your real cold email reply rate in 2026? I'll go first",
+  "body": "There's so much fake data around cold email that I'd love real numbers from people doing it.\n\nMine for the last 30 days, selling to D2C founders:\n- Sent: [YOUR NUMBER]\n- Reply rate: [YOUR NUMBER]%\n- Positive replies: [YOUR NUMBER]\n- Sending to: founder inboxes only, with a dated trigger in line 1\n\nWhat I changed that moved it most: [YOUR BIGGEST CHANGE].\n\nYour turn: what do you sell, who do you send to, and what's your reply rate? Also interested in what didn't work.",
+  "flair": [
+   "Discussion",
+   "Question",
+   "Poll"
+  ]
+ },
+ {
+  "week": 4,
+  "archetype": "Story / lessons (failure angle)",
+  "subs": [
+   "EntrepreneurRideAlong",
+   "agency"
+  ],
+  "image": null,
+  "promo": false,
+  "title": "I verified [N] D2C founder emails by hand. Here's what surprised me",
+  "body": "Over the last few months I've been manually finding and verifying founder emails for D2C brands. Some things I didn't expect:\n\n1. [X]% of the emails that tools returned for founders bounced or were outdated. [FILL IN YOUR REAL NUMBER]\n2. Pattern guessing (first@brand.com) was wrong more often than right at brands with co-founders.\n3. The same founders show up on every big database, so they get hammered. Smaller brands were far more reachable.\n4. A dated reason to reach out mattered more than any copy tweak.\n5. [YOUR OWN LESSON]\n\nBiggest mistake I made early: [YOUR MISTAKE].\n\nHappy to answer questions about any of this.",
+  "flair": [
+   "Case Study",
+   "Ride Along Story",
+   "Lessons Learned",
+   "Discussion"
+  ]
+ },
+ {
+  "week": 5,
+  "archetype": "AMA (when karma > 300)",
+  "subs": [
+   "agency",
+   "EntrepreneurRideAlong"
+  ],
+  "image": null,
+  "promo": true,
+  "title": "I build lead lists of D2C founders for agencies. AMA about outbound to ecommerce brands",
+  "body": "Background: I run FreshLeads. Every week we find D2C brands with a fresh reason to reach out (launch, retail deal, raise, new hire), verify the founder's real inbox, and cap each lead at 5 buyers so founders don't get hammered.\n\nAsk me anything about:\n- finding the right person at an ecommerce brand\n- what gets founders to reply\n- deliverability when emailing founders\n- which niches are easiest to break into right now\n\nI'll be answering all day.",
+  "flair": [
+   "AMA",
+   "Discussion"
+  ]
+ }
+]

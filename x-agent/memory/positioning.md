@@ -3,7 +3,12 @@
 ## Studio facts
 - Evolves Studio: 3D animation studio making brand commercials. Founder: Ishaan (India).
 - Site: https://www.evolvesstudios.com
-- (Day 1: services, best work, clients, style, booking path, X handle, current followers)
+- Services (site): 3D commercials, product renders, video production, social cutdowns, brand visuals, media strategy.
+- Work listed on site: Prime, boAt, Nike, Bliss, Meister Trim, Super Human (+coffee), Insane Labz, Karma and Luck, Sidemen Clothing/Activewear, Dream Honey, Greatness Tee, EZODRIP, AirPods, vape brands.
+- Site claims: 500+ projects, 10M+ views, 50+ brands. Booking path: "Book a Call".
+- X: @creasivestudio ("Ishaan | Evolves Studio"), joined Apr 2023, 1 follower / 50 following on 2026-10-04.
+- Bio now: "I make 3D ads that show what a product photo can't. clients: PRIME Hydration, boAt. posting a free 3D ad for a D2C brand every week."
+- Avoid vape-brand work as X content (brand-safety with a broad creative audience).
 
 ## One-liner (draft)
 A 3D studio founder who turns whatever the internet is talking about into lessons, takes and visuals for creatives
