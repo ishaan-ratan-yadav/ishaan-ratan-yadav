@@ -1,0 +1,11 @@
+# Trend log (what was rising, what we did, what happened)
+
+Log every candidate the morning pack and radar considered, bridged or skipped, so the weekly review can tell which bridge types work.
+
+| Date | Trend / thread | Where seen | In niche? | Rising / peaking / fading | Bridge used | Go/skip + reason | Outcome (score, comments, top comment?) |
+|---|---|---|---|---|---|---|---|
+| 2026-10-05 | Jones Road "Wide Awake" naming dispute (concealer launched Sep 15, Molly Sims/YISE objected Sep 20, Bobbi Brown apologised and said the name will change; commentators say a third brand used the name in 2022) | web news (cosmeticsbusiness.com, beauty newsletters) | adjacent (D2C brand) | peaking, fading in about a week | D2C brand lens + trigger-signal lens: a name collision/rename is a dated reason to pitch a brand (packaging, listings, ads all need updating) | SAMPLE ONLY (in `packs/2026-10-05-sample.json`); verify on Reddit before use | |
+| 2026-10-05 | Shopify ScriptTag API creation blocked from Oct 1, 2026 (brands must migrate tracking to Web Pixels / theme app extensions) | web (dev changelog summaries) | yes (ecommerce ops) | rising | platform-change lens: tracking breaks, ad performance drops, agencies get blamed | SAMPLE ONLY; NEEDS FACT CHECK on shopify.dev | |
+| 2026-10-05 | Gmail complaint-rate guidance: keep spam complaints under 0.10%, never reach 0.30% (Google bulk-sender guidance, via vendor summaries). One vendor blog claims a July 2026 cut of the threshold: unconfirmed | web (vendor blogs, secondary) | yes (cold email) | ongoing | platform-change lens: sending fewer, sharper, verified emails | SAMPLE ONLY; quote only the 0.10% / 0.30% guidance and NEEDS FACT CHECK against Google's Postmaster docs | |
+| 2026-10-05 | r/Emailmarketing thread "Gmail will now soon give an option to readers to decide if your email sucks" (2.8 h old at fetch time via public RSS) | r/Emailmarketing rising feed | yes | rising | platform-change lens | used in the sample pack after reading the thread | |
+| 2026-10-05 | Five beauty brands launch near-identical "grinding balm" eye patches the same week (same non-exclusive manufacturer, per one newsletter) | web newsletter | adjacent (D2C) | fading | D2C brand lens: shared supplier = no moat, speed of marketing wins | skipped: single-source | |

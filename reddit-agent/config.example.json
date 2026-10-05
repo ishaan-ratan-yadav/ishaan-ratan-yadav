@@ -1,0 +1,15 @@
+{
+  "telegram_bot_token": "PASTE_FROM_BOTFATHER (optional)",
+  "telegram_chat_id": "PASTE_YOUR_CHAT_ID (optional)",
+  "reddit_username": "YOUR_REDDIT_USERNAME",
+  "warmup_until": "2026-10-12",
+  "lead_agent_dir": "H:/claude/reddit  scrap",
+  "comment_gap_minutes": 10,
+  "site": "https://www.getfreshleads.io",
+  "no_promo_subreddits": ["Entrepreneur", "sales", "marketing", "ecommerce", "shopify", "digital_marketing", "DigitalMarketing", "smallbusiness", "influencermarketing", "freelance", "startups"],
+  "brand": {
+    "bg": "#0B110E",
+    "accent": "#2ECC71",
+    "hot": "#FF4500"
+  }
+}

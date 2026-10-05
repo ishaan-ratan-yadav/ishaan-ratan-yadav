@@ -1,0 +1,197 @@
+{
+  "date": "EXAMPLE",
+  "phase": "growth",
+  "sample_label": "EXAMPLE pack: invented threads and numbers that only show the format. Real packs are written by the morning task from live Reddit research.",
+  "brief": {
+    "summary": "Example pack. Rising comments first (early, one per thread), one value post with a slot, inbox replies, one DM follow-up. Promo share stays at or under 10%.",
+    "karma": {"now": "[read from profile]", "goal": "+60 comment karma this week", "followers": "[read from profile]"},
+    "trends": [
+      {
+        "name": "Mailbox provider tightens spam-complaint limits",
+        "why": "Cold email subs are all discussing it, 3 threads rising",
+        "angle": "Platform-change lens: fewer, sharper, verified emails beat volume",
+        "source": "https://example.com/source"
+      },
+      {
+        "name": "A DTC brand renames a product after a naming dispute",
+        "why": "r/popular riser, 1.2k upvotes in 2 h",
+        "angle": "Trigger-signal lens: a rename is a dated reason to pitch packaging and ads work"
+      }
+    ],
+    "golden_hour": "Stay 90 minutes after each post. Answer every comment within minutes and ask something back: threads with replies-to-replies climb.",
+    "checklist": [
+      "Now (17:15 IST): comments 1-3 under rising threads, 10+ minutes apart per sub (use the timer).",
+      "18:30-19:30 IST (9-10 am ET): post P1 in r/coldemail with the image. Stay for the golden hour.",
+      "During the golden hour: answer every comment (ready replies are under the post), then do rising comments 4-6.",
+      "Inbox: reply to the two items below (one asked about the product, so the sample offer is fine).",
+      "DM u/example_user only because they asked for samples in the thread.",
+      "Profile: pin the intro post if it is not pinned yet."
+    ]
+  },
+  "rising": [
+    {
+      "subreddit": "coldemail",
+      "url": "https://www.reddit.com/r/coldemail/comments/1example1/cold_email_reply_rates_dropped_this_month/",
+      "title": "Cold email reply rates dropped this month, anyone else?",
+      "posted_ago": "28 min",
+      "score_seen": 14,
+      "comments_seen": 3,
+      "why": "Core sub, thread rising, no data-based comment yet, OP sells to ecommerce brands",
+      "options": [
+        "Check the inbox before the copy. When I stopped sending to info@ and hello@ and only emailed founders, replies came back within a week even with the same email. Spam folders hit generic inboxes hardest because every vendor mails them. Did your drop start on one sending domain or all of them?",
+        "Same thing here, but it split by list. Founder inboxes held up, shared inboxes tanked. Worth segmenting your results by address type before you rewrite anything.",
+        "tbh volume is the wrong lever right now. 40 well-timed emails to people who just launched something beat 400 to a stale list. What's your list source?"
+      ],
+      "follow_up": "If OP asks what a 'dated reason' is: a launch, a retail deal or a raise from the last 30 days, mentioned in line 1."
+    },
+    {
+      "subreddit": "agency",
+      "url": "https://www.reddit.com/r/agency/comments/1example2/how_do_you_land_your_next_dtc_client/",
+      "title": "How do you land your next DTC client when referrals dry up?",
+      "posted_ago": "41 min",
+      "score_seen": 9,
+      "comments_seen": 2,
+      "why": "OP is exactly a buyer; two thin answers so far",
+      "options": [
+        "Referrals dry up because you wait for them. What worked for me was picking brands that had just launched something and emailing the founder directly with one specific idea for that launch. Small list, 20 a week. Two or three conversations a month from that.",
+        "Watch for dated triggers: a new product, first retail doors, a funding round. Those brands are open to hearing from vendors right now, and the founder is the one reading. Are you selling creative, email or ads?"
+      ]
+    },
+    {
+      "subreddit": "sales",
+      "url": "https://www.reddit.com/r/sales/comments/1example3/how_long_should_a_cold_email_be/",
+      "title": "How long should a cold email be?",
+      "posted_ago": "19 min",
+      "score_seen": 22,
+      "comments_seen": 6,
+      "why": "Strict sub (no promo): comment only, zero product. Big thread, still early",
+      "options": [
+        "Under 70 words, three short lines. Reason you're writing to them now, one result for someone like them, one tiny ask. The reason is the line everyone skips and it's the one that gets the reply.",
+        "Shorter than you think. I cut my first email from 140 words to 60 and the only thing I lost was the paragraph about us."
+      ]
+    },
+    {
+      "subreddit": "Emailmarketing",
+      "url": "https://www.reddit.com/r/Emailmarketing/comments/1example4/klaviyo_flow_sending_to_dead_addresses/",
+      "title": "Klaviyo flow still sending to dead addresses, how do you clean it?",
+      "posted_ago": "55 min",
+      "score_seen": 6,
+      "comments_seen": 1,
+      "why": "Verification is our home turf; OP needs a practical answer",
+      "options": [
+        "Suppress anyone who hasn't opened or clicked in 90-120 days before they hit the flow, and run the list through a verifier once a quarter. Dead addresses drag your sender reputation more than a lower open rate does."
+      ]
+    },
+    {
+      "subreddit": "popular",
+      "url": "https://www.reddit.com/r/popular/comments/1example5/dtc_brand_renames_product/",
+      "title": "DTC brand renames its new product after a naming dispute",
+      "posted_ago": "70 min",
+      "score_seen": 1200,
+      "comments_seen": 340,
+      "bridge": true,
+      "why": "Viral bridge: trigger-signal lens. Huge thread, so only worth it if the comment is excellent and short",
+      "options": [
+        "For anyone who sells to brands: a rename is a very good day to email them. Packaging, listings, ad copy and landing pages all need redoing, and the founder is paying attention to the product right now."
+      ]
+    },
+    {
+      "subreddit": "FacebookAds",
+      "url": "https://www.reddit.com/r/FacebookAds/comments/1example6/cpa_doubled_after_tracking_change/",
+      "title": "CPA doubled after our tracking change, where do I start?",
+      "posted_ago": "33 min",
+      "score_seen": 8,
+      "comments_seen": 4,
+      "why": "Operators in the ecommerce world; build comment history in a Tier A sub",
+      "options": [
+        "Compare platform-reported purchases with your store's orders for the same days first. If the gap widened right after the change, the problem is event matching and not the ads. Which setup are you on, pixel only or pixel plus server events?"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "P1",
+      "slot": "18:30 IST (9:00 am ET)",
+      "subreddit": "coldemail",
+      "type": "image",
+      "pillar": "Help",
+      "format": "teardown + image",
+      "hook_type": "contrarian",
+      "bucket": "variation",
+      "score": 8.2,
+      "hypothesis": "A contrarian title with a concrete reason and an infographic earns comments from operators who disagree. NEEDS FACT CHECK: any real reply-rate numbers in the body must come from Ishaan.",
+      "title": "Stop pitching info@ when you email ecommerce brands. It's a support queue, not a decision maker",
+      "body": "Unpopular opinion: most outreach to D2C brands doesn't fail because of the copy. It fails because of the inbox.\n\ninfo@ and hello@ are read by whoever handles order issues. Best case you get \"please fill out our partnership form\".\n\nmarketing@ is read by someone who triages sponsorship pitches all day. You get \"send a deck\", then silence.\n\nThe founder or head of ecom is where the yes happens at smaller brands, and they get far fewer emails than you'd think.\n\nI see people A/B testing subject lines for weeks while sending to an address that can't say yes.\n\nFix the inbox first, then the copy. Where do you disagree?",
+      "flair": "Discussion",
+      "media": "media/examples/inbox.jpg",
+      "alt_text": "Left: a bin overflowing with envelopes labelled info@ with a 999+ badge. Right: one sealed envelope on a pedestal labelled founder inbox. Headline: Stop pitching info@. Founders don't read it.",
+      "first_comment": "Context if it helps: I find and verify these inboxes by hand for a living, so I have an obvious bias. Happy to be proven wrong with your own numbers.",
+      "golden_hour_replies": [
+        "fair, at a 50-person brand the founder isn't the buyer. who owns marketing in your experience, head of growth or the founder?",
+        "agreed that a partnership form can work. what's your reply rate through it?",
+        "what do you do when you can't find the founder's address?"
+      ],
+      "alt_titles": [
+        "Your cold email isn't bad. You're sending it to the wrong inbox.",
+        "I stopped emailing info@ and marketing@ at D2C brands. Here's what changed"
+      ],
+      "crosspost": {"to": ["agency"], "when": "48+ hours later, retitled, only if P1 passes 20 upvotes"}
+    },
+    {
+      "id": "P2",
+      "slot": "Tomorrow 16:00 IST (6:30 am ET)",
+      "subreddit": "agency",
+      "type": "text",
+      "pillar": "Offers & engagement",
+      "format": "free-offer thread",
+      "hook_type": "offer",
+      "bucket": "variation",
+      "score": 8.0,
+      "hypothesis": "A free email-rewrite thread creates the replies that justify DMs, with no product mention. Check the sub's rules and the comment-history gate in memory/subreddit-intel.md first.",
+      "title": "Drop the cold email you send to ecommerce brands below and I'll rewrite it for free",
+      "body": "I spend most of my week on outreach to D2C and Shopify brands, and I keep seeing the same 3 or 4 mistakes kill good offers.\n\nPaste your email in the comments (remove names and links), and tell me:\n\n- what you sell\n- who you send it to (founder? marketing@?)\n- your current reply rate, if you know it\n\nI'll reply with a rewritten version and why I changed what I changed. No pitch, I just want to see what people are sending in 2026.\n\nI'll go through every comment over the next 24 hours.",
+      "flair": "Feedback",
+      "golden_hour_replies": [
+        "thanks for pasting it. first thing I'd change is line 1: what happened at their brand this month that gives you a reason to write now?",
+        "which inbox is this going to, the founder or marketing@?"
+      ]
+    }
+  ],
+  "inbox": [
+    {
+      "from": "example_user",
+      "subreddit": "coldemail",
+      "kind": "comment reply",
+      "interest": "hot",
+      "asked_about_us": true,
+      "url": "https://www.reddit.com/r/coldemail/comments/1example7/your_comment/",
+      "their_text": "How do you actually find the founder email? Do you have a tool for this?",
+      "why": "Asked directly how and whether there's a tool: a lead",
+      "reply": "Mostly by hand. Legal pages on the store, podcast show notes, press releases, then an SMTP check before anything goes on the list. Full disclosure, I run getfreshleads.io which does this for D2C brands, happy to send you a few samples in your niche. What do you sell?"
+    },
+    {
+      "from": "another_user",
+      "subreddit": "agency",
+      "kind": "comment reply",
+      "interest": "warm",
+      "url": "https://www.reddit.com/r/agency/comments/1example8/your_comment/",
+      "their_text": "interesting, we've been emailing marketing@ for months and getting nothing",
+      "why": "Shares a real situation, no ask yet: keep helping, no pitch",
+      "reply": "That tracks. marketing@ mostly collects sponsorship pitches. Try five brands where you can find the actual founder, mention something they did in the last month, and compare. Which category are you in?"
+    }
+  ],
+  "dms": [
+    {
+      "to": "example_user",
+      "stage": "after they asked in the thread and said yes",
+      "context": "They replied 'yes please' to the sample offer in r/coldemail",
+      "subject": "5 sample leads",
+      "text": "Thanks for asking in the thread. Tell me what you sell and which D2C niche you're targeting, and I'll send 5 verified founder contacts with a reason to pitch each. No strings, just tell me if they were any good.",
+      "follow_up": "If no reply in 2 days: one short nudge with the pricing line, not before."
+    }
+  ],
+  "profile_tasks": [
+    "Pin the intro post (see reference/reddit-leads-agent/profile/PROFILE_SETUP.md) if it isn't pinned yet.",
+    "Check the inbox for modmail or removal notices before posting P1."
+  ]
+}

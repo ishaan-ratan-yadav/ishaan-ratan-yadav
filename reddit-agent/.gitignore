@@ -1,0 +1,10 @@
+config.json
+__pycache__/
+*.pyc
+.DS_Store
+packs/next-inbox.json
+# media renders are local; keep only the examples
+media/*
+!media/examples/
+!media/examples/**
+!media/.gitkeep

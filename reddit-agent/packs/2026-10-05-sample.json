@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-05",
+  "phase": "warmup",
+  "sample_label": "SAMPLE pack built from live research on 2026-10-05 (about 20:00-21:00 IST) by the build agent, NOT by the scheduled task. Threads were read in full via Reddit's public RSS (OP plus comments); Reddit rate-limited (HTTP 429) much of the radar, so this pack is deliberately short. Thread ages are as of the fetch and will be older when you read this: re-check each thread's age and top comments first. Comments are written in first person for Ishaan: edit anything that is not true for you. Warm-up phase: no product, no links, no posts.",
+  "brief": {
+    "summary": "Warm-up day, two comment targets the lead agent has NOT claimed: one fast-moving platform-change thread (r/Emailmarketing) and one slow-sub thread with no human replies yet (r/agencynewbies). Three other threads I read were already drafted by the lead agent today, so they are skipped. No original posts until 2026-10-12.",
+    "karma": {"now": "[read from profile]", "goal": "+60 comment karma this week, ~150 total by 2026-10-12", "followers": "[read from profile]"},
+    "trends": [
+      {
+        "name": "Gmail testing thumbs-up / thumbs-down prompts on promo emails (unconfirmed)",
+        "why": "r/Emailmarketing thread 3 h old with 2 comments; the OP says it is an experimental test seen in screenshots with no official announcement",
+        "angle": "Platform-change lens: relevance and list quality matter more than copy tweaks. Treat as unconfirmed and ask whether anyone has seen it themselves"
+      },
+      {
+        "name": "Meta ads volatility and ban-wave complaints (r/FacebookAds)",
+        "why": "the 'performance' thread and several others are full of venting; the lead agent already drafted comments there today",
+        "angle": "SKIPPED for comments (lead agent owns it). Content idea instead: a help post for r/agency on protecting client ad accounts, queued for after 2026-10-12 (the lead agent suggested it too)"
+      },
+      {
+        "name": "Jones Road product renamed after a naming dispute (NOT seen on Reddit yet)",
+        "why": "Concealer launched Sep 15 as 'Wide Awake'; Molly Sims objected Sep 20; Bobbi Brown apologised and said the name will change. A beauty newsletter adds that a third brand used the name in 2022",
+        "angle": "Trigger-signal lens: a rename is a dated reason to pitch a brand (packaging, listings, ads). Use only if a Reddit thread is rising, and NEEDS FACT CHECK on the details first",
+        "source": "https://cosmeticsbusiness.com/jones-road-beauty-changes-concealer-name-yise-beauty"
+      }
+    ],
+    "golden_hour": "No posts today, so no golden hour. If someone replies to a comment, answer within the hour and ask something back.",
+    "checklist": [
+      "Open each thread first: check its age and the top comments. If a better answer is already on top, skip it.",
+      "Comment 1 (Gmail thread, r/Emailmarketing) is time-sensitive: do it first, only if the thread is still under about 90 minutes old.",
+      "Comment 2 (r/agencynewbies) is a slow sub: it is fine to do it hours later, and it has no human replies yet.",
+      "Wait at least 10 minutes between comments in the same sub (the timer on this page).",
+      "Edit anything in first person that is not true for you.",
+      "Do not mention FreshLeads, do not add links, do not DM anyone: warm-up runs until 2026-10-12."
+    ]
+  },
+  "rising": [
+    {
+      "subreddit": "Emailmarketing",
+      "url": "https://www.reddit.com/r/Emailmarketing/comments/1wy681x/gmail_will_now_soon_give_an_option_to_readers_to/",
+      "title": "Gmail will now soon give an option to readers to decide if your email sucks",
+      "posted_ago": "3 h at fetch (2 comments)",
+      "comments_seen": 2,
+      "bridge": true,
+      "why": "Platform-change lens, thread still young. The OP asks how people will respond and the one reply says best practice is unchanged. Missing so far: where the damage will concentrate and what to measure now",
+      "options": [
+        "If it rolls out, I'd expect the damage to land on sloppy list sourcing first. 'Irrelevant brand' is exactly what a bought or stale list produces, and it shows up per person, not just as a complaint rate. What I'd do now is segment results by list source before touching copy. Has anyone actually seen the prompt in their own inbox yet, or is it all screenshots so far?",
+        "Agree it's probably softer than a spam complaint. The part worth planning for is that a thumbs-down is cheap, so people who'd never hit 'report spam' will tap it. Senders mailing people who asked for it barely notice. Senders on generic lists will.",
+        "tbh I'd treat it as one more reason to mail fewer people who have a real reason to hear from you. How are you splitting your list today, by source or by engagement?"
+      ]
+    },
+    {
+      "subreddit": "agencynewbies",
+      "url": "https://www.reddit.com/r/agencynewbies/comments/1wxyhw6/global_what_agency_tasks_did_you_automate_first/",
+      "title": "[Global] What agency tasks did you automate first?",
+      "posted_ago": "11 h at fetch (0 human comments)",
+      "comments_seen": 0,
+      "why": "Slow sub, zero human answers after 11 hours, and the OP asks a concrete question. Not claimed by the lead agent. A clear rule of thumb can be the top comment and earns history in a Tier A sub",
+      "options": [
+        "Automate anything where a mistake is invisible, keep manual anything a client or prospect actually reads. So: data pulls, reporting, invoice reminders, building prospect lists. Ad duplication fits too because you can review it before it goes live. What I'd skip is automating the message itself. Which task eats the most hours for you right now?",
+        "The first thing worth automating is whatever you do the same way more than 5 times a week and can check in 30 seconds. For us that was the boring research part of prospecting, not the writing. Duplicating ads sounds like a decent candidate by that rule.",
+        "Before buying a tool, write the task as 5 steps on paper. If you can't, it's not ready to automate. If you can, a spreadsheet and one script usually beats a new subscription."
+      ],
+      "follow_up": "If OP asks what you mean by prospect research: lists, the right contact, and a reason to write now. No product, no link."
+    }
+  ],
+  "posts": [],
+  "inbox": [],
+  "dms": [],
+  "profile_tasks": [
+    "Post nothing yet. The profile intro post (adapted from reference/reddit-leads-agent/profile/PROFILE_SETUP.md) is queued for 2026-10-12 because it mentions the product.",
+    "Check the Reddit inbox for modmail or removal notices and tell the agent about any (it logs them in memory/subreddit-intel.md).",
+    "r/Emailmarketing rules are still unverified; r/agencynewbies requires a bracketed region at the start of any post title (confirmed from a mod announcement)."
+  ]
+}
