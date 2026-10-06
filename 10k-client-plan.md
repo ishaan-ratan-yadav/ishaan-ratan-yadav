@@ -1,115 +1,115 @@
-# $10K/Month Client Plan — Evolves Studios
+# $10K/Month Client Plan: Evolves Studios
 
-## 1. What the two videos gave us (platform lists)
+## 1. What Evolves Studios sells (from evolvesstudios.com)
+Positioning: "Commercial production for consumer product brands. 3D commercials, photoreal renders and campaign films."
 
-**Video 1: local business directories** (find businesses, then check who has weak video/social)
+| Service on the site | Who buys it |
+|---|---|
+| 3D commercials (full CGI spots) | D2C brands launching or refreshing a product |
+| Product renders (stills + turntables from CAD/packaging art) | Brands that don't want a studio day, Amazon/Shopify sellers |
+| Video production (live-action campaigns) | Larger brands, celebrity/creator lines |
+| Video & social content (vertical cutdowns from the hero film) | Every client, the easy upsell |
+| Brand visuals | Brands doing a refresh |
+| Media strategy | Brands that need launch sequencing |
+
+Proof you can use in every pitch: Prime, Nike, Sidemen (apparel + activewear), Cardi B vape, Boat, Super Human (coffee/supplements), Insane Labz, Dream Honey, Bliss. Also "500+ projects, 10M+ views, 50+ brands" from the numbers section. Make sure those claims are accurate before you use them in outreach.
+
+**Ideal client profile (ICP):** a consumer product brand with a real product, an existing audience or ad spend, and weak product video. Target categories that match your portfolio:
+supplements and sports nutrition, beverages/hydration, coffee/food, apparel and activewear, audio/tech accessories, vape/wellness, grooming, skincare/beauty.
+
+## 2. The math: $10K/month with the Evolves offer
+Your site sells higher-ticket work than your Fiverr gigs. Price accordingly. These prices are planning assumptions, so adjust to what you actually charge.
+
+| Offer | Price | Count/month | Monthly |
+|---|---|---|---|
+| 3D commercial (one hero spot + cutdowns) | $1,500–2,500 | 3 | $4,500–7,500 |
+| Product render pack (stills + turntables) | $400–800 | 3 | $1,200–2,400 |
+| Monthly content retainer (cutdowns, social edits from a hero film) | $800–1,500/mo | 2–3 | $1,600–4,500 |
+| **Target** | | | **$10,000** |
+
+Simplest path: 2 commercials ($4K) + 3 render packs ($1.8K) + 3 retainers ($3.6K) + one extra small project = about $10K.
+
+Funnel to plan around (adjust with real data after week 2): about 500 qualified messages → ~10% reply → ~12 calls → ~4 clients/month.
+
+## 3. Where to find these clients
+Use the directories from the two videos to build lists of product brands. The country lists below are from the videos.
+
+**Business directories (Video 1):**
 | Country | Directories |
 |---|---|
-| USA | google.com/business (Google Maps), yelp.com, yellowpages.com |
+| USA | google.com/business (Maps), yelp.com, yellowpages.com |
 | Germany | gelbeseiten.de, dasoertliche.de, 11880.com |
 | Canada | yellowpages.ca, yelp.ca, canada411.ca |
 | Australia | yellowpages.com.au, truelocal.com.au, hotfrog.com.au |
-| UK, Dubai, Philippines | named in the video, but the link tables flash too fast to read. Use Google Maps, Yell.com (UK), and Dubai Yellow Pages / Google Maps as stand-ins. |
+| UK, Dubai, Philippines | named in the video; link tables unreadable. Use Google Maps, Yell.com (UK), Dubai Yellow Pages. |
 
-**Video 2: country-specific freelance/job platforms**
-| Country | Platforms |
-|---|---|
-| Poland | JustJoinIT, Useme |
-| Spain | Infojobs, Malt |
-| Netherlands | Hoodkraan, Freelancer.nl |
-| Australia | Airtasker, Seek |
-| Sweden/Norway/Denmark | Workee, Thehub |
-| Singapore | Glints, Techinasia |
-| Brazil | 99freelance, Workana |
-| Canada | Clutch.io, Wellfound |
+**Freelance/job platforms (Video 2):**
+Poland: JustJoinIT, Useme · Spain: Infojobs, Malt · Netherlands: Hoodkraan, Freelancer.nl · Australia: Airtasker, Seek · Sweden/Norway/Denmark: Workee, Thehub · Singapore: Glints, Techinasia · Brazil: 99freelance, Workana · Canada: Clutch.io, Wellfound.
 
-Caveat: JustJoinIT, Infojobs, Seek, Glints and Techinasia are mostly job boards (full-time roles), not freelance marketplaces. Use them to spot companies that *hire* for video/social roles, then pitch them a contract instead. Useme, Malt, Workana, Airtasker, 99freelance and Freelancer.nl are real gig marketplaces.
+Caveat: JustJoinIT, Infojobs, Seek, Glints and Techinasia are mostly job boards, not gig marketplaces. Use them to spot brands hiring for video/creative roles, then pitch a contract.
 
-## 2. What you sell (from your Fiverr page)
-| Service | Starts at | Best buyer |
-|---|---|---|
-| 3D product animation / commercials | $100 | Supplement, beverage, skincare, gadget brands |
-| Social media management + content | $100 | Local businesses, creators, brands |
-| Rap / hip-hop music video editing | $20 | Artists, labels |
-| AMV / anime edits | $10–20 | Creators, gaming/anime channels |
-| 2D character animation | $90 | Brands, YouTubers, kids' content |
-| AI music video (lip sync) | $60 | Artists, labels |
+**Honest note on fit:** local directories (Yelp, Yellow Pages) are full of restaurants and plumbers, not product brands. They fit only for local product makers (coffee roasters, supplement/skincare makers, apparel labels, food brands). For Evolves, the better sources are:
+- Shopify/Amazon brand search, Meta Ad Library (brands already running ads with weak creative), Instagram/TikTok brand pages, Product Hunt, Kickstarter/Indiegogo launches.
+- Clutch.io and Wellfound (from Video 2): agencies that resell production, and startups launching hardware or consumer products.
+- Malt, Useme, Workana, Freelancer.nl, Airtasker: browse for briefs mentioning product video, 3D, render, commercial.
 
-Your reference client is DrinkPrime. Put a DrinkPrime case study at the top of every pitch.
+## 4. Checklist
 
-## 3. The math (pick this mix)
-Cheap services (AMV, $10–20) won't get you to $10K. Sell the top three, and use the cheap ones as upsells.
+### Week 0: Setup (2–3 days)
+- [ ] Confirm the site's Book a Call link works and goes to a calendar you check daily.
+- [ ] Build a 60-second showreel from your best 3D commercials. Put it first in every message.
+- [ ] Write 3 short case studies (Prime, Sidemen, one supplement/coffee brand): the product, what you built, the result.
+- [ ] Create 3 priced packages: Product Render Pack, 3D Commercial, Monthly Content Retainer. Put the prices in a one-page PDF.
+- [ ] Set up payments (Stripe/Wise/PayPal), a contract template (50% upfront) and an invoice template.
+- [ ] Create a lead tracker (Google Sheet): brand, country, category, product, contact, source, weakness spotted, date sent, reply, call, status, value.
 
-| Stream | Price | Count | Monthly |
-|---|---|---|---|
-| Social media + short-form retainers | $1,000–1,500/mo | 4 | $4,000–6,000 |
-| 3D product animation / product ads | $400–800 each | 4–5 | $2,000–4,000 |
-| Music video packages (rap, AI, 2D) | $300–600 each | 3 | $900–1,800 |
-| **Total target** | | | **$10,000** |
+### Weeks 1–2: Build the lead list (target 250 brands)
+- [ ] Pick 2–3 markets: USA, UK, Canada or Australia (higher budgets), plus Dubai if you can reach decision-makers.
+- [ ] Find brands: Meta Ad Library (search "supplement", "hydration", "skincare", "streetwear"), Shopify store directories, Instagram, Amazon bestsellers, plus the directories above for local makers.
+- [ ] Qualify each: real product, running ads or 5K+ followers, current product video looks weak (flat photos, phone clips, or none).
+- [ ] Log 40 brands/day. Note the specific weakness and the product you'd animate.
+- [ ] Find the decision-maker (founder, head of marketing, brand manager) on LinkedIn/Instagram and get an email.
+- [ ] Browse marketplaces daily and save 10 relevant briefs.
 
-Rough outreach funnel (adjust with real data after week 2): 600 messages → ~10% reply (60) → ~20% call (12) → ~35% close (4). Plan about 150 personalized messages per week.
-
-## 4. Where each service finds clients
-- **3D product animation + social media:** local business directories from Video 1. Search Google Maps for DTC and beverage/supplement/skincare/fitness/restaurant businesses with a weak Instagram or no product video. Aim at US, Canada, Australia, UK, Dubai (higher budgets).
-- **Social media management:** Airtasker (AU), Malt (ES/EU), Workana (BR), Useme (PL), Freelancer.nl (NL).
-- **Companies hiring in-house video/social people:** Seek, Infojobs, JustJoinIT, Glints. Pitch a contract: "I'll cover this for a monthly fee."
-- **Agencies that resell your work:** Clutch.io, Wellfound, Thehub (Nordics). White-label for agencies gives repeat volume.
-- **Music videos:** Instagram/TikTok/SoundCloud/YouTube artists with under 50K followers, plus labels. Search by hashtag; no directory needed.
-
-## 5. Checklist
-
-### Week 0 — Setup (2–3 days)
-- [ ] Get your website live (Evolves Studios). I couldn't open evolvesstudios.com from my environment, so confirm the domain loads and matches the pitch.
-- [ ] Build a 60–90 second showreel: best 3D product shot, best rap edit, best AI music video, DrinkPrime work.
-- [ ] Write 1 case study for DrinkPrime: problem → what you made → result (views, sales, or their quote).
-- [ ] Make 3 fixed packages with prices (Starter / Growth / Premium) for social media, and 2 for 3D product ads.
-- [ ] Set up a Calendly or WhatsApp link, a payment method (Wise/PayPal/Stripe), and a one-page contract + invoice template.
-- [ ] Create a lead tracker (Google Sheet): business, country, source, contact, date sent, reply, call, status, value.
-
-### Week 1–2 — Build the lead list (target 300 leads)
-- [ ] Pick 3 countries first: USA, Australia, UK or Canada.
-- [ ] Use Google Maps, Yelp, Yellow Pages, Truelocal. Search "supplement brand", "skincare", "coffee roaster", "gym", "restaurant" plus city.
-- [ ] Qualify each: active business, 1K+ followers or a real store, weak/no video content, owner reachable on Instagram/email/LinkedIn.
-- [ ] Log 50 leads/day in the sheet. Save the exact weakness you spotted ("no product video on site", "last post 3 months ago").
-- [ ] Browse Airtasker, Malt, Useme, Workana, Freelancer.nl daily and save 10 relevant job posts each day.
-
-### Week 2 onward — Outreach (daily, ~30 per day)
-- [ ] 30 personalized DMs/emails per day. First line is specific to them. Offer a free 10–15 second sample or mock-up for the 3D product leads.
-- [ ] Day 3 follow-up, day 7 second follow-up, day 14 last follow-up. Most replies come from follow-ups.
-- [ ] On marketplaces, apply to 10 posts/day with a short, tailored proposal and one relevant sample link.
-- [ ] Post 3–5 samples per week on Instagram/TikTok/LinkedIn with a clear "book a call" link. (The video creator's "comment 'link'" funnel works because the lead comes to you.)
+### Week 2 onward: Outreach (daily)
+- [ ] 25–30 personalized DMs/emails per day, each naming their product and the specific weakness.
+- [ ] For your best 10 leads per week, make a short free concept (a still render or 5-second animation of their product). Send it in the first message.
+- [ ] Follow up on day 3, day 7 and day 14.
+- [ ] Apply to 5–10 marketplace briefs per day with a tailored proposal and a relevant sample.
+- [ ] Post 3–5 pieces per week (before/after, breakdowns, cutdowns) on Instagram/LinkedIn/TikTok with the Book a Call link.
 
 ### Closing
-- [ ] 15-minute call: ask about goal, current content, budget, timeline. Send a proposal within 24 hours.
-- [ ] Always offer a paid pilot (one project or 1 month) at a small discount, then convert to a retainer.
+- [ ] On the call: ask the product, launch date, budget, where the video will run. Send a proposal within 24 hours.
+- [ ] Offer a paid pilot (one render pack or one short spot), then convert to a retainer.
 - [ ] Take 50% upfront on projects, full month upfront on retainers.
-- [ ] Ask every client for a testimonial and 2 referrals after delivery.
+- [ ] After delivery, ask for a testimonial and 2 referrals. Offer cutdowns for every platform as the natural next sale.
 
 ### Delivery and growth
-- [ ] Deliver the first project within 3–5 days. Fast delivery wins the retainer.
-- [ ] Monthly report for retainer clients (views, growth, what to make next).
-- [ ] Upsell: 3D product ad → social media management → music-style brand videos.
-- [ ] Hire or subcontract an editor once you pass $5K/month so your time goes to sales.
+- [ ] Deliver the first project fast (renders 3–5 days, commercial 1–2 weeks) and over-deliver on quality.
+- [ ] Monthly report for retainer clients: views, engagement, what to make next.
+- [ ] Upsell path: render pack → 3D commercial → monthly cutdown retainer → media strategy.
+- [ ] Past $5K/month, hire or subcontract a 3D artist/editor so your time goes to sales.
 
-## 6. Milestones
+## 5. Milestones
 | Month | Goal |
 |---|---|
-| 1 | 300 leads built, 600+ messages sent, first 2–3 paying clients (~$1,500–2,500) |
-| 2 | 2 retainers + steady project flow (~$4,000–6,000) |
-| 3 | 4 retainers + 4–5 projects (~$8,000–10,000) |
+| 1 | 250 brands listed, 500+ messages, 2–3 first projects (about $2,000–4,000) |
+| 2 | 1–2 retainers + 2 projects (about $5,000–7,000) |
+| 3 | 3 retainers + 3 commercials/render packs (about $9,000–10,000) |
 
-## 7. Message templates
+## 6. Message templates
 
-**Cold DM, product brand**
-> Hi [Name], I came across [Brand] on [Google Maps/Instagram]. Your product looks great, but your page doesn't show it in motion. I make cinematic 3D product animations for brands like DrinkPrime. Want me to mock up a 10-second sample for [product] — free, no strings?
+**Cold DM/email (product brand)**
+> Hi [Name], I saw [Brand]'s [product] on [Instagram/Meta ads]. The product is strong but the visuals look flat next to bigger names. I run Evolves Studios. We make 3D commercials and product films for brands like Prime and Sidemen. I mocked up a quick concept for [product] and can send it over. Worth a look?
 
 **Marketplace proposal**
-> Hi [Name], I read your post about [need]. I've done similar work for DrinkPrime and others — samples here: [link]. I can deliver [specific thing] in [X days] for [price]. Happy to jump on a quick call.
+> Hi [Name], I read your brief about [need]. Evolves Studios produces 3D commercials and photoreal product renders for consumer brands (Prime, Sidemen, Super Human). Samples: [link]. I can deliver [specific thing] in [X days] for [price]. Happy to jump on a quick call.
 
 **Follow-up (day 3)**
-> Hi [Name], following up on my last message. I put together an idea for [brand]: [one-line concept]. Want me to send it over?
+> Hi [Name], following up. Here's the idea I had for [product]: [one-line concept]. If it's useful, I can send the sample render.
 
-## 8. Things to be honest about
-- I can't find named, verified clients for you from here, and I haven't scraped any directory. The lists above tell you where to look. Treat the numbers (reply and close rates, revenue mix) as planning assumptions, not guarantees.
-- Don't buy or scrape email lists and mass-blast them. Personalized outreach converts better and keeps your accounts safe.
-- Some of these directories restrict automated scraping. Collect leads by hand or with their official tools.
+## 7. Notes
+- I can't find named, verified clients from here. I haven't scraped any directory or sent any messages. The sources above tell you where to look.
+- The revenue numbers, prices and reply/close rates are planning assumptions, not guarantees.
+- Don't buy or scrape email lists and mass-blast them. Personalized outreach converts better and protects your accounts. Some directories also forbid scraping, so collect leads by hand.
+- Your Fiverr gigs (AMV edits, music videos, 2D animation, social media management) still work as side income or entry offers. This plan leaves them out because Evolves Studios is positioned for product brands.
