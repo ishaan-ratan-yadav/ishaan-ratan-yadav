@@ -234,6 +234,44 @@ never locked, never stabilized, never gimbal-glide, never floaty drone — real 
 
 Dutch cant is a swinging range: `8–14°, never passing through level`. Roaming coverage names what it snaps to. A still subject inside a violent camera is stated as an explicit split.
 
+### Director's camera & composition (always, on top of the register)
+
+**Always direct it like a filmmaker.** Every video prompt carries a director's camera-and-composition block, never just a description of what happens. The model gets the coverage plan a professional director and cinematographer would give it. References are production art, not fixed frames, unless an exact handoff frame is required.
+
+- **Shot selection.** Build coverage with a purpose for every shot: establish → approach → detail insert → reaction → payoff. Change shot size and angle at every cut, and never repeat the same size and angle back to back. Cover a key prop with an insert. Put a reaction shot after every big event. Use POV and over-the-shoulder shots for connection.
+- **Composition.**
+  - Subject on a third.
+  - A foreground framing element (leaves, a doorframe, a prop edge, a shoulder).
+  - Three depth layers (foreground, midground, background) with parallax.
+  - Leading lines toward the subject.
+  - Look-room in the direction of gaze or travel.
+  - Clear silhouettes.
+  - Low angles for awe or power, high angles for smallness, symmetry for wonder.
+- **Camera motion, always motivated.**
+  - Push in on a realization.
+  - Pull out or crane up to reveal or to close.
+  - Lateral tracking with foreground parallax for travel.
+  - A whip-pan from cause to effect.
+  - A rack focus to move attention.
+  - A crash-zoom with a short shake for comic or shock impact.
+  - A low tracking shot for speed.
+  - Orbit only for wonder, and only once.
+  - Every move eases in and out with real weight, inertia and follow-through: no robotic linear drift, no aimless orbit, no floaty glide.
+- **Transitions.** Hard cuts on motion, match cuts (shape, colour or motion), whip-pan transitions, foreground wipes and light blooms. No fades, no dissolves, no dip to black unless the user asks.
+- **Rhythm.** Cut on the beat of the action or music. Hold longer on emotion, shorter on action. End each shot on a frame that leads into the next.
+
+Paste-ready block (fill the angle brackets for the scene):
+
+```
+[Director's Camera & Composition]
+You are the director and cinematographer. Treat the attached images as production art, not fixed frames, and design the coverage like a feature film.
+Shot selection: <establish / approach / insert / reaction / payoff for this scene>; change shot size and angle at every cut, never the same framing twice in a row.
+Composition: subject on a third, a foreground framing element, three depth layers with parallax, leading lines toward the subject, look-room in the direction of gaze or travel, clear silhouettes.
+Camera motion: every move motivated by the action — <push-in on the realization, pull-out or crane-up to reveal, lateral tracking with parallax for travel, whip-pan from cause to effect, rack focus to shift attention>; moves ease in and out with real weight and follow-through, never robotic, never an aimless orbit.
+Transitions: hard cuts on motion, match cuts, whip-pans or foreground wipes; no fades, no dissolves, no dip to black.
+Rhythm: cut on the beat of the action and music, hold on emotion, quicken on action, end each shot on a frame that leads into the next.
+```
+
 ## 10 — LIGHT & COLOUR
 
 **Direction, quality, temperature. Never a fixture name, never codec or stock codes.**

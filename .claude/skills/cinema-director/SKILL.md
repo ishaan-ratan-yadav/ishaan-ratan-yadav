@@ -101,6 +101,44 @@ Plan silently on a 0–100% grid, then write positional prose. Never coordinates
 - Every non-locked register closes with the never-settles clause (never stabilized, never gimbal-glide, never floaty drone, real shoulder-mounted mass, every frame mid-move but continuous).
 - A still subject inside a violent camera is stated as an explicit split.
 
+### 3.3b Director's camera & composition — mandatory in every video prompt
+
+**Always direct it like a filmmaker.** Every video prompt carries a director's camera-and-composition block, never just a description of what happens. The model gets the coverage plan a professional director and cinematographer would give it. References are production art, not fixed frames, unless an exact handoff frame is required.
+
+- **Shot selection.** Build coverage with a purpose for every shot: establish → approach → detail insert → reaction → payoff. Change shot size and angle at every cut, and never repeat the same size and angle back to back. Cover a key prop with an insert. Put a reaction shot after every big event. Use POV and over-the-shoulder shots for connection.
+- **Composition.**
+  - Subject on a third.
+  - A foreground framing element (leaves, a doorframe, a prop edge, a shoulder).
+  - Three depth layers (foreground, midground, background) with parallax.
+  - Leading lines toward the subject.
+  - Look-room in the direction of gaze or travel.
+  - Clear silhouettes.
+  - Low angles for awe or power, high angles for smallness, symmetry for wonder.
+- **Camera motion, always motivated.**
+  - Push in on a realization.
+  - Pull out or crane up to reveal or to close.
+  - Lateral tracking with foreground parallax for travel.
+  - A whip-pan from cause to effect.
+  - A rack focus to move attention.
+  - A crash-zoom with a short shake for comic or shock impact.
+  - A low tracking shot for speed.
+  - Orbit only for wonder, and only once.
+  - Every move eases in and out with real weight, inertia and follow-through: no robotic linear drift, no aimless orbit, no floaty glide.
+- **Transitions.** Hard cuts on motion, match cuts (shape, colour or motion), whip-pan transitions, foreground wipes and light blooms. No fades, no dissolves, no dip to black unless the user asks.
+- **Rhythm.** Cut on the beat of the action or music. Hold longer on emotion, shorter on action. End each shot on a frame that leads into the next.
+
+Paste-ready block (fill the angle brackets for the scene):
+
+```
+[Director's Camera & Composition]
+You are the director and cinematographer. Treat the attached images as production art, not fixed frames, and design the coverage like a feature film.
+Shot selection: <establish / approach / insert / reaction / payoff for this scene>; change shot size and angle at every cut, never the same framing twice in a row.
+Composition: subject on a third, a foreground framing element, three depth layers with parallax, leading lines toward the subject, look-room in the direction of gaze or travel, clear silhouettes.
+Camera motion: every move motivated by the action — <push-in on the realization, pull-out or crane-up to reveal, lateral tracking with parallax for travel, whip-pan from cause to effect, rack focus to shift attention>; moves ease in and out with real weight and follow-through, never robotic, never an aimless orbit.
+Transitions: hard cuts on motion, match cuts, whip-pans or foreground wipes; no fades, no dissolves, no dip to black.
+Rhythm: cut on the beat of the action and music, hold on emotion, quicken on action, end each shot on a frame that leads into the next.
+```
+
 ### 3.4 Light & colour (Shotcaller + Scenecraft)
 
 State: where the dominant light comes from relative to camera and subject · its quality (hard/raking, soft/wrapping, broad, pointed) · temperature and where two temperatures meet · what it catches and where it stops.
@@ -177,7 +215,7 @@ Pull the verbatim blocks from the named source skill. The spines are fixed; the 
 5 ASSETS (@imageN) · 6 GEOMETRY MAP · 7 FIRST FRAME · 8 OPTICS · 9 CAMERA
 10 LIGHT & COLOUR · 11 ATMOSPHERE · 12 ACTION TIMING · 13 PHYSICS · 14 ACTING · 15 AUDIO · 16 LOCKS
 ```
-Cross-skill upgrades to apply: closed-mouth HARD LOCK in the header line when no one speaks (Motiondojo) · population block with named intruders (Motiondojo) · individuality clause for multiple people (Motiondojo) · surface-aware physics (Motiondojo) · thirds/lead room/depth staggering and resolution filter in the Geometry Map and Assets (Scenecraft) · plate light carried in verbatim when a Scenecraft plate is the first frame · bible descriptors in Assets and Acting.
+Always include the **Director's Camera & Composition block** (§3.3b) right after the header/style. Cross-skill upgrades to apply: closed-mouth HARD LOCK in the header line when no one speaks (Motiondojo) · population block with named intruders (Motiondojo) · individuality clause for multiple people (Motiondojo) · surface-aware physics (Motiondojo) · thirds/lead room/depth staggering and resolution filter in the Geometry Map and Assets (Scenecraft) · plate light carried in verbatim when a Scenecraft plate is the first frame · bible descriptors in Assets and Acting.
 Variants: dialogue system · extension (continuity paragraph second, First Frame deleted, hold breaks in the first quarter second) · lipsync protocol · strobe quarantine. 2.0 rations references; 2.5 adds anti-drift weight past 15s.
 
 ### B. Genjutsu motion transfer → `motiondojo-v1`
@@ -258,6 +296,7 @@ Drop lines that don't apply (plates have no runtime or audio). **Iterations skip
 - [ ] Max four CRITICAL blocks, in priority order
 - [ ] Every body acting in every beat; listeners silent with an action; individuality on multiple people
 - [ ] Population: exact count and likely intruders, or EVERYONE IS LIVE
+- [ ] Director's Camera & Composition block present: purposeful shot selection, varied sizes, composed frames, motivated weighted moves, cut-on-motion transitions, rhythm
 - [ ] Lens in degrees, locked, defended if unusual; one motivated camera register
 - [ ] Light by direction/quality/temperature, three sourced bands, no fixtures; night doctrine if night
 - [ ] Atmosphere as density with named planes; vapor only with a source
@@ -284,6 +323,7 @@ Drop lines that don't apply (plates have no runtime or audio). **Iterations skip
 | Characters swap parts | Role assignment by labelled screen position | Motiondojo |
 | Faces/clothes from the motion video appear | Intro must limit what the video controls | Motiondojo |
 | Motion loops or rushes | Runtime ≠ motion video length | Motiondojo |
+| Video feels flat, static or randomly shot | Add/strengthen the Director's Camera & Composition block: purpose per shot, size change every cut, foreground framing, motivated moves with weight, cut on motion | Cinema Director |
 | Camera robotic or orbits | Specific moves tied to bodies, operator footing, never-settles clause | Motiondojo |
 | Bodies look composited / pasted in | Surface-aware physics, contact shadows, light side named on the person, scale against the world | Motiondojo + Scenecraft |
 | Figures float or slide | Physics chain missing deformation or contact shadow | Shotcaller |
