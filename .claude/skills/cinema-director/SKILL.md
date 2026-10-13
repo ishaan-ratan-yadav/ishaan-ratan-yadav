@@ -205,6 +205,26 @@ Video closes Locks with the skin-protection paragraph and tail (Shotcaller). Pla
 
 ---
 
+### 3.13 Motion grammar from code films (from `higgsfield-motion-saas` + `higgsfield-motion-claude`)
+
+These rules come from 84 launch films and a client's verdicts. They apply to code-rendered films **and** to AI-video prompts and edits.
+
+- **Hide a cut in peak speed.** At an event the speed is never zero, and at a cut it is at its maximum: needle zoom, whip-pan, fly-through, morph. In a Seedance prompt, write transitions as "cut on the fastest moment of the move".
+- **Direction survives the cut.** If the camera flies *into* something, the next shot starts farther away and decelerates in; it never starts zoomed in and shrinks. A whip to the right continues rightward after the cut.
+- **Keep one thing continuous across every cut** (an object's geometry, direction and relative speed, UI state or colour) and hard-cut the rest. **Nothing important appears or leaves by opacity alone**: it is carried, grown, pushed, wiped, morphed or cut.
+- **Overlap.** Start the next move at about 0.45 of the current one, so speeds add instead of queueing.
+- **Strength by role.** Strong curves only on transitions. Inside a scene everything is soft: entrances 0.45–0.7s with move + scale 0.96→1 + blur 8→0 on an expo-out, overshoot ≤2% (≤6–8% on pills, never on a logo or headline).
+- **Pacing.**
+  - No dead air: something new every 0.5–0.6s.
+  - Holds only for listed reads: status 1.0s, name 0.6–0.7s, three numbers 1.2s, end lockup 2s.
+  - Cut on the beat: 24 fps at 120 BPM = 12 frames per beat.
+- **Camera.** It is active and motivated: it follows what moves or reveals the next information. No unmotivated crash zooms, shake or roll. Whips only to follow an object.
+- **Every transition has a visible trigger.** Write a trigger map: cause in shot A → effect → how the camera follows.
+- **Sound is never skipped.** Every interim goes out with sound. Master to −14 LUFS / about −1 dBTP. Say the track was checked numerically, not listened to.
+- **Scenario first.** For films, send the scenario (shot table on the beat grid plus trigger map) before building, then a storyboard with an estimate, and wait for "go".
+- **Revisions.** Back up the approved version and change only what the feedback names.
+- **Status updates.** Give clock time, what changed, the current stage, a visual if one exists, and an ETA.
+
 ## 4. OUTPUT FORMATS — one spine per target
 
 Pull the verbatim blocks from the named source skill. The spines are fixed; the content comes from the toolkit above.
@@ -235,6 +255,15 @@ Cross-skill upgrades: bible visual lock and never-clauses as the face-lock spec 
 ### D. Scene plate / first frame → `scenecraft-v1`
 Five unlabeled cinematographer-prose paragraphs: opening shot · overlay line · world · focal anchor and light · capture and finish (six for people-in-scene: a people paragraph after the overlay line). Plate types: A environment · B people in scene · C coverage set · D edit (target / change / protected).
 Cross-skill upgrades: bible era palette as the light and grade · Castkit sheets as the people references · **a plate built as a video first frame must agree with the video prompt's Geometry Map, lens and light direction** — write them together.
+
+### F. Code-rendered motion film / key frames / styleboard → `higgsfield-motion-claude` (frames, any identity, HFT tokens) · `higgsfield-motion-saas` (SaaS / app / product launch films, transition library, AE path)
+
+HTML/CSS/Canvas/WebGL scenes with a pure `__seek(t)` → headless-Chromium capture → sub-frame motion blur → H.264 + sound.
+
+- **Pipeline:** scenario → storyboard gate with estimate → build → QA → render → verify → deliver.
+- **Mixing with AI clips:** Seedance or Higgsfield clips play inside the film as extracted frames.
+- **Before you start:** read each skill's `client-taste.md` before designing.
+- **Container differences:** the scripts assume macOS (Swift/AVFoundation). In this Linux container, use the ffmpeg equivalents named in the encode and mux headers, plus the Python sound tools.
 
 ### E. Story bible → `story-bible-builder`
 Interview one character at a time; four quoted prompt-ready descriptors (Speech, Movement, Stillness, Suno), never names inside them; era aesthetic lines copy-paste-ready; production rules with never-clauses. Save to `.claude/skills/<title-slug>/SKILL.md` in this repo so it loads as a project skill.
@@ -324,6 +353,8 @@ Drop lines that don't apply (plates have no runtime or audio). **Iterations skip
 | Faces/clothes from the motion video appear | Intro must limit what the video controls | Motiondojo |
 | Motion loops or rushes | Runtime ≠ motion video length | Motiondojo |
 | Video feels flat, static or randomly shot | Add/strengthen the Director's Camera & Composition block: purpose per shot, size change every cut, foreground framing, motivated moves with weight, cut on motion | Cinema Director |
+| Cut looks like a jump / transition feels cheap | Hide the cut in peak speed and keep the direction across it (no zoom-in → zoom-out flip). Carry one object or colour across; never opacity-only | Motion SaaS |
+| Film feels dead between beats | Something new every 0.5–0.6s; holds only for listed reads; overlap the next move at 0.45 | Motion Claude |
 | Camera robotic or orbits | Specific moves tied to bodies, operator footing, never-settles clause | Motiondojo |
 | Bodies look composited / pasted in | Surface-aware physics, contact shadows, light side named on the person, scale against the world | Motiondojo + Scenecraft |
 | Figures float or slide | Physics chain missing deformation or contact shadow | Shotcaller |

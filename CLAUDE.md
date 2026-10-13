@@ -6,7 +6,7 @@ In this repo, Claude works as a **cinematic video prompt director**. It writes p
 
 **Always load `cinema-director` first, for every prompt request.** It is the merged knowledge of all five skills: one doctrine, one combined toolkit, a spine per output type, the pipeline between them, a unified pre-prompt check, and a master repair table. Every prompt borrows techniques across skills (a Seedance shot uses Scenecraft's composition planning and Motiondojo's individuality and population locks; a Genjutsu prompt uses Shotcaller's dialogue system, and so on).
 
-The five source skills stay installed as the **verbatim template library**. `cinema-director` names which one to open for the exact blocks and closes that must be pasted, not paraphrased:
+The source skills stay installed as the **verbatim template library**. `cinema-director` names which one to open for the exact blocks and closes that must be pasted, not paraphrased:
 
 | Output | Spine and verbatim blocks from | Target models |
 |---|---|---|
@@ -15,8 +15,10 @@ The five source skills stay installed as the **verbatim template library**. `cin
 | Face lock, additions, outfits, character sheets | `castkit-v1` | Nano Banana Pro, GPT-2, Soul Cinema |
 | Environment, location, first frame, people in scene, coverage, edits | `scenecraft-v1` | Nano Banana Pro, Seedream 5.0 Pro |
 | Story bible | `story-bible-builder` | Installable SKILL.md |
+| Code-rendered key frames, styleboards, kinetic type, logo idents, brand/launch films in any identity (HFT tokens, 12 presets, `derive()`), RU frame handbook | `higgsfield-motion-claude` | HTML/CSS/WebGL → Chromium capture → MP4 + sound |
+| SaaS / app / product launch films, transition library (needle zoom, fly-through, UI morph, mockup hand-off), easing math, After Effects ExtendScript path | `higgsfield-motion-saas` | Code films or After Effects |
 
-**Pipeline:** story bible → face lock and outfits → character sheet → scene plate / first frame → video shot or motion transfer.
+**Pipeline:** story bible → face lock and outfits → character sheet → scene plate / first frame → video shot or motion transfer → (optional) code-rendered motion film or edit that mixes the clips with kinetic type, UI and sound (`higgsfield-motion-*`).
 
 New knowledge goes into `cinema-director` (the combined thinking) and, when it changes a template, into the source skill too.
 
@@ -50,6 +52,7 @@ Hard-won lessons from real generations. Add a dated entry whenever the user repo
 
 <!-- Format: - **YYYY-MM-DD** · [skill] · lesson (what happened → what to do) -->
 
+- **2026-10-13** · all · Installed `higgsfield-motion-claude` (frames, styleboards and code films in any identity; HFT token system; RU handbook from 84 launch films) and `higgsfield-motion-saas` (SaaS/app launch films; transition library; AE path). Merged their motion grammar into `cinema-director` §3.13 and output spine F. Key rules: hide cuts in peak speed, keep direction across a cut, nothing by opacity alone, overlap at 0.45, no dead air (0.5–0.6s), scenario before build, sound on every interim. Each skill's `client-taste.md` holds another client's taste; use it as a quality bar, not as this user's taste. Their scripts assume macOS Swift/AVFoundation; in this container use ffmpeg.
 - **2026-10-08** · all video · Standing user rule: every video generation prompt must carry creative, cinematic camera motion, composition, shot selection and direction, like a professional director. → Added the Director's Camera & Composition block to `cinema-director` §3.3b, `shotcaller-v1` §9 and the house rules, and patched the local seedance-2-5 skill (Step 2b). That skill is synced from the account, so the repo copy is the durable one.
 - **2026-10-03** · edit / sound · Final assembly with sound design. Higgsfield's sound-effect model is reserved for its game pipeline, and its outputs can't be downloaded into this container, so SFX are synthesized in Python (numpy/scipy): swept-noise whooshes, bell twinkles, glints, flutters, a formant ghost "wooo", a stick-slip door creak, thuds, risers, and a boom-plus-dissonant-cluster stinger. → Map frame-exact event times from contact sheets first. Join songs with a motivated transition, not a hard audio switch: a low-pass and reverb-tail wash under a magic riser, or a tape-stop when the lights die. Drop the music about 0.2s before a jump scare so the hit lands in silence. Lift very quiet song intros with gated auto-gain. Master to about −14 LUFS and below −1 dBTP. Real character screams or voices need recorded or library files.
 - **2026-10-03** · Seedance 2.5 · A shot's headcount line ("exactly two figures and one ghost") left out the infant, and the infant vanished from the bassinet in that shot. This happened even though a general rule said the infant is always visible. → The per-shot headcount must list every character in frame, including background ones ("…and the infant still in the bassinet behind them"). Seedance obeys the specific shot line over the general rule. To fix part of a clip, generate a short creative insert for just that part (e.g. 6s) and cut it into the good take, rather than regenerating the whole clip.
