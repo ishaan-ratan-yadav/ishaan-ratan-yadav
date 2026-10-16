@@ -16,6 +16,7 @@ The source skills stay installed as the **verbatim template library**. `cinema-d
 | Environment, location, first frame, people in scene, coverage, edits | `scenecraft-v1` | Nano Banana Pro, Seedream 5.0 Pro |
 | Story bible | `story-bible-builder` | Installable SKILL.md |
 | Code-rendered key frames, styleboards, kinetic type, logo idents, brand/launch films in any identity (HFT tokens, 12 presets, `derive()`), RU frame handbook | `higgsfield-motion-claude` | HTML/CSS/WebGL → Chromium capture → MP4 + sound |
+| Premium product commercials (stills + Seedance), "3D studio, not AI": reference study, brand translation, edit-the-reference image chain, layout composites, clay blockout motion refs | `product-film-3d` | Nano Banana 2.1, GPT Image 2.5, Seedance 2.5 |
 | SaaS / app / product launch films, transition library (needle zoom, fly-through, UI morph, mockup hand-off), easing math, After Effects ExtendScript path | `higgsfield-motion-saas` | Code films or After Effects |
 
 **Pipeline:** story bible → face lock and outfits → character sheet → scene plate / first frame → video shot or motion transfer → (optional) code-rendered motion film or edit that mixes the clips with kinetic type, UI and sound (`higgsfield-motion-*`).
