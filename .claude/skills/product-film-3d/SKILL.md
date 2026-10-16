@@ -20,6 +20,12 @@ Load `cinema-director` too (house rules, Director's Camera block). This skill is
 9. **About one shot per 2–2.5s per Seedance pass.** Six cuts in 7s failed.
 10. **Text:** the only text is the product's own label "reproduced exactly as in the attached product images, never mirrored and never altered". Big letters render; tiny back-label text garbles (fine in motion, keep it soft).
 
+11. **The reference frame goes in FIRST on every generation and every fix pass,** in greyscale, scoped "CAMERA AND COMPOSITION AUTHORITY ONLY". Without it the model pulls the camera back and centres the product. A fix pass that drops it loses the framing that was already right.
+12. **Scope every change to exactly what the user named.** "Make the bottom translucent" means the bottom only; the sides stay as the real product. Before sending, repeat the user's words back into the prompt and list what is PROTECTED.
+13. **Research the real ingredients before choosing elements** (label, INCI list, site). The best element is usually the product's own source in its most beautiful form: its blossom petals, its seed, its oil drop. Never a mixed "ingredient salad".
+14. **Every hero frame needs one director's idea, not a literal staging of the brief.** The idea tells the brand story in one image: the drop as a lens holding the source plant upside down; backlit gold against the brand colour in darkness; forced perspective. Frame only the action (no ground plane or table unless it plays a part), and let references set proportion and materials, not layout.
+15. **I can't see outputs from the cloud container** (cloudfront is blocked). So the self-critique has to happen BEFORE sending: run the §1.3 pre-flight on every prompt, and offer two distinct concepts per round when the shot is creative.
+
 ## 1. Workflow
 
 ```
@@ -44,6 +50,16 @@ Research the brand (search results, product photos, label). Pick:
 - **World colour.** Either the product's colour family (a honey-amber studio for an amber spirit) or the brand's shoot surface (warm sand / Marrakech plaster for an oil shot on raffia), with the **label colour as the one strong colour**.
 - **Ingredients.** The real ones from the label or the story. One hero (seeds for a seed oil) plus 1–2 accents.
 - **Canon only.** Don't invent equipment or process ("a copper still" is not their tool). Ask or keep it symbolic.
+
+### 1.3 Pre-flight: one-go checklist (run it silently on every image prompt before sending)
+1. **Reference:** is the matching reference frame attached FIRST (greyscale) and scoped to camera, angle, orientation and fill? Is the real product photo attached? Is the approved look authority attached LAST?
+2. **Framing in words:** have I stated the camera distance and how much of the frame the subject fills ("fills the bottom half and runs off the edges"), the angle (low / grazing / profile / worm's-eye), and where the subject sits (third point, cropped by which edge)?
+3. **Idea:** what is the one cinematic idea of this frame? If I can't say it in one line, the frame is basic. Would a commercial director present it?
+4. **Scope:** for an edit, does the prompt change ONLY what the user named, with a PROTECTED list? Is it one concern per pass?
+5. **Product truth:** the real shape (square vs round), real label text "exactly as in the attached product images", real oil colour, real ingredients only?
+6. **Premium:** one hero material, empty space, downward fall, real scale (drop ≈ tip width, lentil-sized on a surface), pale tint, low contrast, nothing over-sharpened?
+7. **Banned:** render-engine words, multipliers, "burst/explode/swirl", ground planes that add nothing, a hand unless asked, other brands?
+8. **Credits:** generate only what the user asked for. Two models (Nano Banana 2.1 + GPT Image 2.5) for a label-heavy or uncertain frame; two concepts only for a creative open brief.
 
 ## 2. Image recipes (Nano Banana 2.1, 4K, thinking High; GPT Image 2.5 at 2K High for a label-heavy fix)
 
@@ -72,6 +88,8 @@ A premium studio product render, indistinguishable from a real photograph: physi
 | **Macro drop** | Recreate the GRAY composition | "lentil-sized, one twenty-fifth of the frame's width", "slightly flattened dome", "pale tint, never deep orange, never glowing", "one tiny highlight", "soft contact shadow" |
 | **Falling ingredients + product** | Edit the COLOUR reference frame itself (swap every petal for an ingredient, same position, size, blur), remove its product, then composite the real product (`layout_composite.py`), then blend | "falling downward like a gentle rain", "nothing bursts outward", "bottom third calm and empty" |
 | **Hero close-up** | Recreate the GRAY composition, with a few ingredients only | "neck cropped by the top edge", "label centred and sharp", "plenty of calm, clean space" |
+| **Dropper hero (drop leaving the tip)** | No ground. Extreme macro on the pipette tip; references for proportion and glass only. Concept A: the drop is a lens holding the source plant upside down, on a brand-colour wall warming to gold. Concept B: side profile, the drop just pinched off with a satellite droplet, backlit gold on deep brand-colour darkness | "thread finer than a hair", "drop as wide as the tip's outer diameter", "tiny trapped air bubble", "thin bright rim of light", "no ground, no leaf" |
+| **Falling petals + product (botanical oil)** | Reference falling frame GRAY first; the pieces are the source plant's own blossom petals (one colour family), plus a few oil drops and seeds | "single thin silky petal", "translucent where the sun passes through", "falls gently downward like a slow rain", "two fifths of the frame height" |
 | **Intro bottle in darkness** | Edit the product's own studio photo | "three precise touches of warm light", "thin crisp highlight along the top edge", "near-total darkness" |
 
 ### Product placement when words fail
