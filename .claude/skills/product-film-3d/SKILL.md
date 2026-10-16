@@ -48,6 +48,7 @@ Research the brand (search results, product photos, label). Pick:
 ## 2. Image recipes (Nano Banana 2.1, 4K, thinking High; GPT Image 2.5 at 2K High for a label-heavy fix)
 
 **Attachment pattern for every keyframe:**
+- The GRAY composition ref is NEVER optional: attach it first on every generation and on every fix pass, scoped as "CAMERA AND COMPOSITION AUTHORITY ONLY: copy its camera distance, angle, orientation and how much of the frame the subject fills". Without it, the model pulls the camera back and centres the product.
 - `[GRAY composition ref]` → `[product photo(s)]` → `[ingredient photo]` → `[approved look authority, LAST]`.
 - Scope each one: "WHAT EACH ATTACHED IMAGE CONTROLS … Nothing else from it."
 
