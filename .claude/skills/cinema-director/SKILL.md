@@ -377,4 +377,5 @@ Drop lines that don't apply (plates have no runtime or audio). **Iterations skip
 | Animated character sliding to photoreal | Style lock missing or paraphrased | Castkit |
 | Marker in the wrong place | Anchor it to a fixed anatomical landmark | Castkit |
 | Extension resets / opens frozen | Continuity paragraph second, final frame named, hold breaks in the first quarter second | Shotcaller |
+| Product / liquid still looks like stock CGI or AI (centred, all sharp, gel liquid, uniform bubbles) | Edit the look reference itself rather than describing it: attach it first, change only vessel, colour and backdrop. Use photographic language, not render-engine words. Keep its shallow focus, soft light and framing; never tell the model to drop them | Cinema Director |
 | Prompt drifts on canon | Pull the bible's quoted descriptors and never-clauses verbatim | Story Bible |
