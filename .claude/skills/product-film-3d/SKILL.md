@@ -59,7 +59,8 @@ Research the brand (search results, product photos, label). Pick:
 5. **Product truth:** the real shape (square vs round), real label text "exactly as in the attached product images", real oil colour, real ingredients only?
 6. **Premium:** one hero material, empty space, downward fall, real scale (drop ≈ tip width, lentil-sized on a surface), pale tint, low contrast, nothing over-sharpened?
 7. **Banned:** render-engine words, multipliers, "burst/explode/swirl", ground planes that add nothing, a hand unless asked, other brands?
-8. **Credits:** generate only what the user asked for. Two models (Nano Banana 2.1 + GPT Image 2.5) for a label-heavy or uncertain frame; two concepts only for a creative open brief.
+8. **AI tells (§3.3), for video:** is every readable text large and front-facing, and every small label turned away or blurred? Is the side copy hidden? Are collisions and weight written for particles? Are refractions described as optics? Is it shot-by-shot for the edit, not one generic pass?
+9. **Credits:** generate only what the user asked for. Two models (Nano Banana 2.1 + GPT Image 2.5) for a label-heavy or uncertain frame; two concepts only for a creative open brief.
 
 ## 2. Image recipes (Nano Banana 2.1, 4K, thinking High; GPT Image 2.5 at 2K High for a label-heavy fix)
 
@@ -138,6 +139,18 @@ LIGHT AND COLOUR / PHYSICS / AUDIO (no music, specific foley per beat) / FINISH 
 **Attach:**
 - `@video1`: the blockout.
 - `@image1…`: the approved keyframes plus 1–2 clean product photos (for label fidelity), in any order.
+
+## 3.3 AI tells a viewer will point at, and how to kill each one
+A viewer who knows 3D and film will pick a generated spot apart on these six points. Every video prompt and every edit must answer all six.
+
+| Tell | Why it happens | Fix |
+|---|---|---|
+| **Small type turns into squiggles** (the label in a wide shot) | The model redraws text every frame; it only stays clean when it is large on screen | Text is either LARGE (the label at least a third of the frame height, facing the camera) or NOT READABLE BY DESIGN: in wide shots the bottle turns its plain side or back to the camera, or the label is lost in deep blur or silhouette. Never a small, sharp, readable label. Generate label shots as their own single-shot pass |
+| **Side or back copy half-legible** | Secondary text panels get invented | Only the front label face is ever seen sharp. A spin stops before the side copy faces the camera, or the side copy stays in deep blur; say "the side panels show only plain satin glass" if the real product allows |
+| **Runtime is a model default** (exactly 5/10/15s) | The film is one generation, uncut | Never deliver a raw generation. Generate shots separately with heads and tails, cut them in the edit to the beat, and land on an editor's length (e.g. 9.6s, 12.4s), with a real end frame or logo hold |
+| **Generic "premium ad" coverage** (soft hero moves, no hard cuts) | The prompt describes a genre, not a film | Every shot gets a specific idea and a specific camera decision (a locked macro, a rack focus, a speed ramp, a match cut, one moment of stillness, one moment of impact). Hard cuts on motion between separately generated shots. Vary the rhythm: some shots of 0.6s, some of 2s |
+| **Particles don't feel simulated** (petals float plausibly but have no weight) | "Petals fall" gives a texture, not physics | Write the collisions: petals strike the bottle's shoulder and slide off along the glass, flip, catch on the collar, collide with each other and separate; big petals tumble and drift, small ones fall faster, oil drops fall straight and fastest; turbulence trails behind the moving bottle; a few come to rest. Fewer, larger pieces read more real than many small ones |
+| **Glass is vague** (objects in or behind glass read as soft impressions) | Refraction is hard and the model fudges it | Describe the actual optics: what is seen THROUGH the glass, inverted, compressed and bent at the edges; a thick base magnifies; the edges go dark with total internal reflection; highlights are sharp, thin lines. Keep transparent props few, large and slow; avoid ice and citrus in motion unless they are the hero |
 
 ## 4. Platform notes (Higgsfield)
 - Nano Banana 2.1 costs about 2 credits per image at 2K. Preflight with `get_cost`.
