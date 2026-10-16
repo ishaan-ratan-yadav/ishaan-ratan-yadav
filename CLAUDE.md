@@ -37,6 +37,7 @@ New knowledge goes into `cinema-director` (the combined thinking) and, when it c
 - **Never invent canon.** If a needed detail is missing, ask.
 - **Direct every video like a filmmaker.** Every video prompt (Seedance, Veo, Genjutsu, any model) includes the Director's Camera & Composition block from `cinema-director` §3.3b: purposeful shot selection, a size change at every cut, composed frames with foreground framing and depth, motivated camera moves with weight, cut-on-motion transitions, and rhythm. References are production art, not fixed frames. When using `/anthropic-skills:seedance-2-5`, add this block too.
 - **NO ON-SCREEN TEXT** block always sits high in the prompt, with no carve-outs. In-world text is written as a physical object.
+- **Kill the six AI tells by default, on every project** (`cinema-director` §3.14): readable text only when it is large and front-facing, otherwise turned away or blurred; never side or back copy in focus; never a raw model runtime (cut shot by shot to an editor's length); a specific idea and camera decision per shot, with hard cuts; particles with mass and written collisions; glass and liquids written as real optics.
 
 ## Reference tag syntax by tool
 

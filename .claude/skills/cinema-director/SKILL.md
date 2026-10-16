@@ -225,6 +225,16 @@ These rules come from 84 launch films and a client's verdicts. They apply to cod
 - **Revisions.** Back up the approved version and change only what the feedback names.
 - **Status updates.** Give clock time, what changed, the current stage, a visual if one exists, and an ETA.
 
+### 3.14 Anti-AI-tell doctrine (every project, every format)
+A trained eye calls a piece AI on six tells. Every image prompt, video prompt and edit answers all six by default, without being asked:
+1. **Text is large or deliberately unreadable.** Readable text (labels, signs, screens) is large and front-facing, at least a third of the frame height for a label. Anything smaller is turned away, in deep blur or in silhouette. Text that must read gets its own single-shot pass.
+2. **No secondary text panels in focus.** Side and back copy, fine print and small signage are never seen sharp.
+3. **Never a raw model length.** Generate shot by shot with heads and tails, cut in the edit to the beat, and land on an editor's length, not exactly 5, 10 or 15s.
+4. **No generic genre coverage.** Every shot has a specific idea and a specific camera decision (locked macro, rack focus, speed ramp, match cut, one stillness and one impact); hard cuts on motion; varied shot lengths.
+5. **Particles and cloth have mass.** Write the collisions, weight classes (big pieces tumble and drift, small ones fall faster, liquids fall straight), turbulence behind moving objects, things coming to rest. Fewer, larger pieces beat many small ones.
+6. **Transparent materials are written as optics.** What is seen through glass, water or ice is inverted, compressed and bent at the edges; thick glass magnifies; edges darken; highlights are thin and sharp. Keep transparent props few, large and slow.
+Product films carry the detailed table in `product-film-3d` §3.3.
+
 ## 4. OUTPUT FORMATS — one spine per target
 
 Pull the verbatim blocks from the named source skill. The spines are fixed; the content comes from the toolkit above.
@@ -333,6 +343,7 @@ Drop lines that don't apply (plates have no runtime or audio). **Iterations skip
 - [ ] Audio diegetic with suppression tail, or attached-track sole-source lock
 - [ ] Correct close: skin protection (video) / film finish (plate) / flat close (character plate)
 - [ ] No names, no ratio, no tool names, no ages, no negative block, no lyrics, no meta
+- [ ] Anti-AI-tell pass (§3.14): text large or unreadable; no side copy sharp; edit to an editor's length; a specific idea per shot; mass and collisions; glass as optics
 
 ---
 
